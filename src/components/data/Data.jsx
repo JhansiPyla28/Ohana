@@ -67,19 +67,34 @@ export const socialIcons = [
 
 export const carouselData = [
   {
-    img: "../assets/img/carousel-1.jpg",
-    title: "Discover A Brand Luxurious Hotel",
+    img: "../assets/img/carousel-1.jpeg",
+    title: "Ohana HomeStay",
     subtitle: "luxury living",
     btn1: "Our Room",
     btn2: "Book Room",
   },
   {
-    img: "../assets/img/carousel-2.jpg",
-    title: "Discover A Brand Luxurious Hotel",
+    img: "../assets/img/carousel-2.jpeg",
+    title: "Your peaceful escape!",
     subtitle: "luxury living",
     btn1: "Our Room",
     btn2: "Book Room",
   },
+  {
+    img: "../assets/img/carousel-3.jpeg",
+    title: "Feel the warmth of home",
+    subtitle: "luxury living",
+    btn1: "Our Room",
+    btn2: "Book Room",
+  },
+  {
+    img: "../assets/img/carousel-4.jpeg",
+    title: "Where every stay feels like family",
+    subtitle: "luxury living",
+    btn1: "Our Room",
+    btn2: "Book Room",
+  },
+  
 ];
 export const about = [
   {
