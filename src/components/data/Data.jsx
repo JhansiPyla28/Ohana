@@ -251,34 +251,64 @@ export const contact = [
 export const testimonial = [
   {
     description:
-      "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos",
-    name: "Client Name",
+      "Ohana Homestay is a humble abode set in Dehradun. It is a warm yet chic property offering the correct blend of luxury and homeliness. The hosts, Mr. and Mrs. Ralhi, are very welcoming and provided for all our necessities, big or small. Would definitely recommend the place for a stay in Dehradun.",
+    name: "Aayushi Bawa",
     profession: "Profession",
     icon: (
       <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
     ),
-    img: "../assets/img/testimonial-1.jpg",
+    img: "../assets/img/reviewer profile.png",
   },
   
   {
     description:
-      "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos",
-    name: "Client Name",
+      "Had a memorable stay with family at the Gold Rated Ohana Luxury Homestay in Dehradun owned by Mr. Gurmit Singh Ji. Wonderfully decorated with elegance and charm. A real 5-star ambience. This was my second visit in 3 months. Highly recommended for everyone, including groups.",
+    name: "Deepak Dey",
     profession: "Profession",
     icon: (
       <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
     ),
-    img: "../assets/img/testimonial-2.jpg",
+    img: "../assets/img/reviewer profile.png",
   },
   {
     description:
-      "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos",
-    name: "Client Name",
+      "Just stayed on 12 November 2022 - I was the first guest in this 2-month brand new property. Super property, finest location, warm welcome by the homestay owner, 5-star elegance, soothing interiors. Many features are there with Ohana Luxury Homestay. Enjoy 5-star treatment for 3-star price. Best wishes. ",
+    name: "Dr. Madhumita",
     profession: "Profession",
     icon: (
       <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
     ),
-    img: "../assets/img/testimonial-3.jpg",
+    img: "../assets/img/reviewer profile.png",
+  },
+  {
+    description:
+      "Quaint yet luxurious, our discovered sanctuary! Away from the bustling city, it's a haven, especially with such a gracious hostess. Ideal for indulging amidst the embrace of nature's tranquility. Highly recommended for those seeking a rejuvenating escape from the mundane urban routine.",
+    name: "Aishvarya Varma",
+    profession: "Profession",
+    icon: (
+      <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+    ),
+    img: "../assets/img/reviewer profile.png",
+  },
+  {
+    description:
+      "An excellent and comfortable stay with an authentically serene ambiance, enveloped by nature's beauty and warm hospitality. OHANA, a genuine home away from home, is a definite destination for a relaxed and peaceful getaway experience, offering unparalleled tranquility and rejuvenation.",
+    name: "Manel Regina",
+    profession: "Profession",
+    icon: (
+      <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+    ),
+    img: "../assets/img/reviewer profile.png",
+  },
+  {
+    description:
+      "It's an absolutely awesome property boasting a fantastic ambiance and incredible hospitality. Our stay was delightful, and we're definitely planning frequent visits. Huge compliments to the dedicated staff and the outstanding team for their exceptional service and warm welcome. Can't wait to return!",
+    name: "Nopender Rana",
+    profession: "Profession",
+    icon: (
+      <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+    ),
+    img: "../assets/img/reviewer profile.png",
   },
 ];
 
