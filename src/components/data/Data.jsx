@@ -314,7 +314,7 @@ export const testimonial = [
 
 export const roomItems = [
   {
-    img: "../assets/img/room-1.jpg",
+    img: "../assets/img/room-1.jpeg",
     price: "$110/night",
     name: "Junior Suit",
     star: [
@@ -325,13 +325,13 @@ export const roomItems = [
       <small class="fa fa-star text-primary"></small>,
     ],
     description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
+      "A Luxury Homestay, The new-age way of Holiday, located amidst The Beautiful City of Dehradun. Adorned with a beautiful panoramic view of hills.",
     yellowbtn: "View Detail",
     darkbtn: "book now",
   },
 
   {
-    img: "../assets/img/room-2.jpg",
+    img: "../assets/img/room-2.jpeg",
     price: "$110/night",
     name: "Executive Suite",
     star: [
@@ -342,12 +342,12 @@ export const roomItems = [
       <small class="fa fa-star text-primary"></small>,
     ],
     description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
+      "A Luxury Homestay, The new-age way of Holiday, located amidst The Beautiful City of Dehradun. Adorned with a beautiful panoramic view of hills.",
     yellowbtn: "View Detail",
     darkbtn: "book now",
   },
   {
-    img: "../assets/img/room-3.jpg",
+    img: "../assets/img/room-3.jpeg",
     price: "$110/night",
     name: "Super Deluxe",
     star: [
@@ -358,7 +358,7 @@ export const roomItems = [
       <small class="fa fa-star text-primary"></small>,
     ],
     description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
+      "A Luxury Homestay, The new-age way of Holiday, located amidst The Beautiful City of Dehradun. Adorned with a beautiful panoramic view of hills.",
     yellowbtn: "View Detail",
     darkbtn: "book now",
   },
