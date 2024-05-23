@@ -10,7 +10,7 @@ export default function Contact() {
 
       <div class="container-xxl py-5">
         <div class="container">
-          <CommonHeading
+          <CommonHeading 
             heading="Contact Us"
             subtitle="Contact "
             title="For Any Query"
@@ -34,7 +34,7 @@ export default function Contact() {
             <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
               <iframe
                 class="position-relative rounded w-100 h-100"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.188487720287!2d78.0862126754265!3d30.374005174759194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3908d7f440d0d793%3A0x2b8417710ac9b292!2sOHANA%20Homestay%20Dehradun!5e0!3m2!1sen!2sin!4v1716490213517!5m2!1sen!2sin"
                 frameborder="0"
                 style={{ minHeight: "350px", border: "0" }}
                 allowfullscreen=""

@@ -18,8 +18,7 @@ export default function Footer() {
                   <h1 className="text-white text-uppercase mb-3">Ohana</h1>
                 </Link>
                 <p className="text-white mb-0">
-                  Build a professional website for your hotel business and grab
-                  the attention of new visitors upon your site’s launch.
+                  Experience a memorable stay at Ohana Living with modern amenities, nestled in the scenic foothills of the Himalayas.
                 </p>
               </div>
             </div>

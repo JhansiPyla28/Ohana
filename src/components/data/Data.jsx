@@ -100,72 +100,71 @@ export const about = [
   {
     icon: <i class="fa fa-hotel fa-2x text-primary mb-2"></i>,
     text: "Rooms",
-    count: "7861",
+    count: "32",
   },
   {
     icon: <i class="fa fa-users fa-2x text-primary mb-2"></i>,
     text: "Staffs",
-    count: "1234",
+    count: "64",
   },
   {
     icon: <i class="fa fa-users-cog fa-2x text-primary mb-2"></i>,
     text: "Clients",
-    count: "4321",
+    count: "1351",
   },
 ];
 
 export const services = [
   {
-    icon: <i class="fa fa-hotel fa-2x text-primary"></i>,
-    name: "Rooms & Appartment",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    icon: <i class="fa fa-bed fa-2x text-primary"></i>,
+    name: "Luxury AC Rooms",
+    discription: "Four well-equipped rooms.",
   },
   {
-    icon: <i class="fa fa-utensils fa-2x text-primary"></i>,
-    name: "Food & Restaurant",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    icon: <i class="fa fa-home fa-2x text-primary"></i>,
+    name: "Shared Spaces",
+    discription: "Living, dining room, and kitchen.",
   },
   {
-    icon: <i class="fa fa-spa fa-2x text-primary"></i>,
-    name: "Spa & Fitness",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    icon: <i class="fa fa-cog fa-2x text-primary"></i>,
+    name: "Modern Amenities",
+    discription: "High-end fittings and bedding.",
   },
 
   {
-    icon: <i class="fa fa-swimmer fa-2x text-primary"></i>,
-    name: "Sports & Gaming",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    icon: <i class="fa fa-wifi fa-2x text-primary"></i>,
+    name: "Convenient Facilities",
+    discription: "Free WiFi, driver’s stay, inverter.",
   },
   {
-    icon: <i class="fa fa-glass-cheers fa-2x text-primary"></i>,
-    name: "Event & Party",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    icon: <i class="fa fa-car fa-2x text-primary"></i>,
+    name: "Ample Parking",
+    discription: "Spacious balcony and car parking.",
   },
-
-  {
-    icon: <i class="fa fa-dumbbell fa-2x text-primary"></i>,
-    name: "GYM & Yoga",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
-  },
+  // {
+  //   icon: <i class="fa fa-dumbbell fa-2x text-primary"></i>,
+  //   name: "GYM & Yoga",
+  //   discription: "Contrary to popular belief, ipsum is not simply random.",
+  // },
 ];
 export const team = [
   {
-    image: "../assets/img/team-1.jpg",
+    image: "../assets/img/reviewer profile.png",
     name: "Full Name",
     designation: "Designation",
   },
   {
-    image: "../assets/img/team-2.jpg",
+    image: "../assets/img/reviewer profile.png",
     name: "Full Name",
     designation: "Designation",
   },
   {
-    image: "../assets/img/team-3.jpg",
+    image: "../assets/img/reviewer profile.png",
     name: "Full Name",
     designation: "Designation",
   },
   {
-    image: "../assets/img/team-3.jpg",
+    image: "../assets/img/reviewer profile.png",
     name: "Full Name",
     designation: "Designation",
   },
@@ -219,15 +218,15 @@ export const footerItem = [
 export const footerContact = [
   {
     icon: <i className="fa fa-map-marker-alt me-3"></i>,
-    name: "123 Street, New York, USA",
+    name: "Ohana Homestay, Dehradun",
   },
   {
     icon: <i className="fa fa-phone-alt me-3"></i>,
-    name: "+012 345 67890",
+    name: "9898786789",
   },
   {
     icon: <i className="fa fa-envelope me-3"></i>,
-    name: "info@example.com",
+    name: "ohana@example.com",
   },
 ];
 
@@ -235,17 +234,17 @@ export const contact = [
   {
     icon: <i class="fa fa-envelope-open text-primary me-2"></i>,
     title: "Booking",
-    email: "book@example.com",
+    email: "ohanaBooking@example.com",
   },
   {
     icon: <i class="fa fa-envelope-open text-primary me-2"></i>,
     title: "Technical",
-    email: "tech@example.com",
+    email: "ohanaTechnical@example.com",
   },
   {
     icon: <i class="fa fa-envelope-open text-primary me-2"></i>,
     title: "General",
-    email: "info@example.com",
+    email: "ohanaGeneral@example.com",
   },
 ];
 export const testimonial = [
