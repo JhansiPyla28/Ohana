@@ -100,17 +100,17 @@ export const about = [
   {
     icon: <i class="fa fa-hotel fa-2x text-primary mb-2"></i>,
     text: "Rooms",
-    count: "32",
+    count: "12",
   },
   {
     icon: <i class="fa fa-users fa-2x text-primary mb-2"></i>,
-    text: "Staffs",
-    count: "64",
+    text: "Clients",
+    count: "500+",
   },
   {
     icon: <i class="fa fa-users-cog fa-2x text-primary mb-2"></i>,
-    text: "Clients",
-    count: "1351",
+    text: "Staff",
+    count: "10+",
   },
 ];
 
@@ -148,26 +148,26 @@ export const services = [
   // },
 ];
 export const team = [
-  {
-    image: "../assets/img/reviewer profile.png",
-    name: "Full Name",
-    designation: "Designation",
-  },
-  {
-    image: "../assets/img/reviewer profile.png",
-    name: "Full Name",
-    designation: "Designation",
-  },
-  {
-    image: "../assets/img/reviewer profile.png",
-    name: "Full Name",
-    designation: "Designation",
-  },
-  {
-    image: "../assets/img/reviewer profile.png",
-    name: "Full Name",
-    designation: "Designation",
-  },
+  // {
+  //   image: "../assets/img/reviewer profile.png",
+  //   name: "Full Name",
+  //   designation: "Designation",
+  // },
+  // {
+  //   image: "../assets/img/reviewer profile.png",
+  //   name: "Full Name",
+  //   designation: "Designation",
+  // },
+  // {
+  //   image: "../assets/img/reviewer profile.png",
+  //   name: "Full Name",
+  //   designation: "Designation",
+  // },
+  // {
+  //   image: "../assets/img/reviewer profile.png",
+  //   name: "Full Name",
+  //   designation: "Designation",
+  // },
 ];
 
 export const footerItem = [
@@ -222,11 +222,11 @@ export const footerContact = [
   },
   {
     icon: <i className="fa fa-phone-alt me-3"></i>,
-    name: "9898786789",
+    name: "+91 90583 03579",
   },
   {
     icon: <i className="fa fa-envelope me-3"></i>,
-    name: "ohana@example.com",
+    name: "ohanaliving@gmail.com",
   },
 ];
 
@@ -244,15 +244,15 @@ export const contact = [
   {
     icon: <i class="fa fa-envelope-open text-primary me-2"></i>,
     title: "General",
-    email: "ohanaGeneral@example.com",
+    email: "ohanaliving@gmail.com",
   },
 ];
 export const testimonial = [
   {
     description:
-      "Ohana Homestay is a humble abode set in Dehradun. It is a warm yet chic property offering the correct blend of luxury and homeliness. The hosts, Mr. and Mrs. Ralhi, are very welcoming and provided for all our necessities, big or small. Would definitely recommend the place for a stay in Dehradun.",
+      "Ohana Homestay is a humble abode set in Dehradun. It is a warm yet chic property offering the correct blend of luxury and homeliness. The hosts, are very welcoming and provided for all our necessities. Would definitely recommend the place for a stay in Dehradun.",
     name: "Aayushi Bawa",
-    profession: "Profession",
+    // profession: "Profession",
     icon: (
       <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
     ),
@@ -263,7 +263,7 @@ export const testimonial = [
     description:
       "Had a memorable stay with family at the Gold Rated Ohana Luxury Homestay in Dehradun owned by Mr. Gurmit Singh Ji. Wonderfully decorated with elegance and charm. A real 5-star ambience. This was my second visit in 3 months. Highly recommended for everyone, including groups.",
     name: "Deepak Dey",
-    profession: "Profession",
+    // profession: "Profession",
     icon: (
       <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
     ),
@@ -273,7 +273,7 @@ export const testimonial = [
     description:
       "Just stayed on 12 November 2022 - I was the first guest in this 2-month brand new property. Super property, finest location, warm welcome by the homestay owner, 5-star elegance, soothing interiors. Many features are there with Ohana Luxury Homestay. Enjoy 5-star treatment for 3-star price. Best wishes. ",
     name: "Dr. Madhumita",
-    profession: "Profession",
+    profession: "Doctor",
     icon: (
       <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
     ),
@@ -314,7 +314,7 @@ export const testimonial = [
 export const roomItems = [
   {
     img: "../assets/img/room-1.jpeg",
-    price: "$110/night",
+    price: "₹2500/night",
     name: "Junior Suit",
     star: [
       <small class="fa fa-star text-primary"></small>,
@@ -331,7 +331,7 @@ export const roomItems = [
 
   {
     img: "../assets/img/room-2.jpeg",
-    price: "$110/night",
+    price: "₹2000/night",
     name: "Executive Suite",
     star: [
       <small class="fa fa-star text-primary"></small>,
@@ -341,13 +341,13 @@ export const roomItems = [
       <small class="fa fa-star text-primary"></small>,
     ],
     description:
-      "A Luxury Homestay, The new-age way of Holiday, located amidst The Beautiful City of Dehradun. Adorned with a beautiful panoramic view of hills.",
+      "Enjoy a private holiday in a cosy home surrounded by the calling mountains. where you must go!!! Perched on a plateau bestowed by nature.",
     yellowbtn: "View Detail",
     darkbtn: "book now",
   },
   {
     img: "../assets/img/room-3.jpeg",
-    price: "$110/night",
+    price: "₹1500/night",
     name: "Super Deluxe",
     star: [
       <small class="fa fa-star text-primary"></small>,
