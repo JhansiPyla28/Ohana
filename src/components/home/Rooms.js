@@ -6,9 +6,11 @@ export default function Rooms() {
   useEffect(() => {
     const buttons = document.querySelectorAll('.zoom-btn');
     const modal = document.querySelector('.modal');
-    const modalImg = document.querySelector('.modal img');
+    const modalContentWrapper = document.querySelector('.modal-content-wrapper');
+    const modalImg = document.querySelector('.modal-content');
     const modalDescription = document.querySelector('.modal-description');
     const modalPrice = document.querySelector('.modal-price');
+    const closeModal = document.querySelector('.close');
 
     buttons.forEach(button => {
       button.addEventListener('click', (event) => {
@@ -22,22 +24,44 @@ export default function Rooms() {
         modalDescription.textContent = description;
         modalPrice.textContent = price;
 
-        modal.style.display = 'block';
+        modal.style.display = 'flex';
+        setTimeout(() => {
+          modal.classList.add('show');
+          modalContentWrapper.classList.add('show');
+        }, 10); // slight delay to allow the display change to be registered
       });
     });
 
-    modal.addEventListener('click', () => {
-      modal.style.display = 'none';
+    closeModal.addEventListener('click', () => {
+      modal.classList.remove('show');
+      modalContentWrapper.classList.remove('show');
+      setTimeout(() => {
+        modal.style.display = 'none';
+      }, 300); // matches the transition duration
+    });
+
+    // Close modal when clicking outside of it
+    modal.addEventListener('click', (event) => {
+      if (event.target === modal) {
+        modal.classList.remove('show');
+        modalContentWrapper.classList.remove('show');
+        setTimeout(() => {
+          modal.style.display = 'none';
+        }, 300); // matches the transition duration
+      }
     });
   }, []);
+
   return (
     <>
       <div className="modal">
-        <span className="close">&times;</span>
-        <img className="modal-content" />
-        <div className="modal-details">
-          <p className="modal-price"></p>
-          <p className="modal-description"></p>
+        <div className="modal-content-wrapper">
+          <span className="close">&times;</span>
+          <img className="modal-content" />
+          <div className="modal-details">
+            <p className="modal-price"></p>
+            <p className="modal-description"></p>
+          </div>
         </div>
       </div>
       <div className="row g-4 rooms">

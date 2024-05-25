@@ -176,18 +176,23 @@ export const footerItem = [
     header: "Company",
     UnitItem: [
       {
+        href: "/about",
         name: "About Us",
       },
       {
+        href: "/contact",
         name: "Contact Us",
       },
       {
+        href: "/contact",
         name: "Privacy Policy",
       },
       {
+        href: "/contact",
         name: "Terms & Condition",
       },
       {
+        href: "/contact",
         name: "Support",
       },
     ],
@@ -197,18 +202,23 @@ export const footerItem = [
     header: "Services",
     UnitItem: [
       {
+        href: "/contact",
         name: "Food & Restaurant",
       },
       {
+        href: "/contact",
         name: "Spa & Fitness",
       },
       {
+        href: "/contact",
         name: "Sports & Gaming",
       },
       {
+        href: "/contact",
         name: "Event & Party",
       },
       {
+        href: "/contact",
         name: "GYM & Yoga",
       },
     ],
