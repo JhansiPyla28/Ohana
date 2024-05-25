@@ -29,11 +29,11 @@ export const navList = [
         path: "/booking",
         text: "Booking",
       },
-      {
-        id: 52,
-        path: "/team",
-        text: "Our Team",
-      },
+      // {
+      //   id: 52,
+      //   path: "/team",
+      //   text: "Our Team",
+      // },
       {
         id: 53,
         path: "/testimonial",
@@ -148,26 +148,26 @@ export const services = [
   // },
 ];
 export const team = [
-  // {
-  //   image: "../assets/img/reviewer profile.png",
-  //   name: "Full Name",
-  //   designation: "Designation",
-  // },
-  // {
-  //   image: "../assets/img/reviewer profile.png",
-  //   name: "Full Name",
-  //   designation: "Designation",
-  // },
-  // {
-  //   image: "../assets/img/reviewer profile.png",
-  //   name: "Full Name",
-  //   designation: "Designation",
-  // },
-  // {
-  //   image: "../assets/img/reviewer profile.png",
-  //   name: "Full Name",
-  //   designation: "Designation",
-  // },
+  {
+    image: "../assets/img/reviewer profile.png",
+    name: "Full Name",
+    designation: "Designation",
+  },
+  {
+    image: "../assets/img/reviewer profile.png",
+    name: "Full Name",
+    designation: "Designation",
+  },
+  {
+    image: "../assets/img/reviewer profile.png",
+    name: "Full Name",
+    designation: "Designation",
+  },
+  {
+    image: "../assets/img/reviewer profile.png",
+    name: "Full Name",
+    designation: "Designation",
+  },
 ];
 
 export const footerItem = [

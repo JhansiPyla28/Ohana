@@ -5,7 +5,7 @@ import Newsletter from "../home/Newsletter";
 export default function Footer() {
   return (
     <>
-      <Newsletter />
+      {/* <Newsletter /> */}
       <div
         className="container-fluid bg-dark text-light footer wow fadeIn"
         data-wow-delay="0.1s"

@@ -8,7 +8,7 @@ export default function Service() {
     <>
       <Heading heading="Services" title="Home" subtitle="Services" />
       <Services />
-      <Sliders />
+      {/* <Sliders /> */}
     </>
   );
 }
