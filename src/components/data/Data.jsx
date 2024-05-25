@@ -323,7 +323,11 @@ export const testimonial = [
 
 export const roomItems = [
   {
-    img: "../assets/img/room-1.jpeg",
+    images: [
+      "../assets/img/room-1.jpeg",
+      "../assets/img/room-2.jpeg",
+      "../assets/img/room-3.jpeg"
+    ],
     price: "₹2500/night",
     name: "Junior Suit",
     star: [
@@ -338,9 +342,12 @@ export const roomItems = [
     yellowbtn: "View Detail",
     darkbtn: "book now",
   },
-
   {
-    img: "../assets/img/room-2.jpeg",
+    images: [
+      "../assets/img/room-2.jpeg",
+      "../assets/img/room-2.jpeg",
+      "../assets/img/room-3.jpeg"
+    ],
     price: "₹2000/night",
     name: "Executive Suite",
     star: [
@@ -356,7 +363,11 @@ export const roomItems = [
     darkbtn: "book now",
   },
   {
-    img: "../assets/img/room-3.jpeg",
+    images: [
+      "../assets/img/room-3.jpeg",
+      "../assets/img/room-2.jpeg",
+      "../assets/img/room-3.jpeg"
+    ],
     price: "₹1500/night",
     name: "Super Deluxe",
     star: [
@@ -372,6 +383,7 @@ export const roomItems = [
     darkbtn: "book now",
   },
 ];
+
 
 export const facility = [
   {
