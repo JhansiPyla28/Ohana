@@ -324,13 +324,13 @@ export const testimonial = [
 export const roomItems = [
   {
     images: [
-      "../assets/img/room1-1.jpg", 
-      "../assets/img/room1-2.jpg",
-      "../assets/img/room1-3.jpg",
-      "../assets/img/room1-4.jpg",
-      "../assets/img/room1-5.jpg",
-      "../assets/img/room1-6.jpg",
-      "../assets/img/room1-7.jpg"
+      "../assets/img/room1/room1-1.jpg", 
+      "../assets/img/room1/room1-2.jpg", 
+      "../assets/img/room1/room1-3.jpg", 
+      "../assets/img/room1/room1-4.jpg",
+      "../assets/img/room1/room1-5.jpg", 
+      "../assets/img/room1/room1-6.jpg", 
+      "../assets/img/room1/room1-7.jpg", 
     ],
     price: "₹2500/night",
     name: "Junior Suit",

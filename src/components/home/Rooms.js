@@ -5,10 +5,10 @@ import { facility, roomItems } from "../data/Data";
 export default function Rooms() {
 
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [roomIndex, setRoomIndex] = useState(0);
 
   const handleCarouselSlide = (direction) => {
-    const totalSlides = roomItems.length;
-    console.log(roomItems);
+    const totalSlides = roomItems[roomIndex].images.length;
     let nextSlide = currentSlide + direction;
 
     if (nextSlide < 0) {
@@ -16,11 +16,11 @@ export default function Rooms() {
     } else if (nextSlide >= totalSlides) {
       nextSlide = 0;
     }
-
     setCurrentSlide(nextSlide);
-    
-    console.log(nextSlide)
-  };
+      };
+  const handleButtonClick=(index)=>{
+setRoomIndex(index);
+  }
   
   useEffect(() => {
     const buttons = document.querySelectorAll('.zoom-btn');
@@ -131,6 +131,7 @@ export default function Rooms() {
                   <a
                     className="btn btn-sm btn-primary rounded py-2 px-4 zoom-btn"
                     href=""
+                    onClick={() => handleButtonClick(key)}
                   >
                     {item.yellowbtn}
                   </a>
