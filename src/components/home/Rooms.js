@@ -8,6 +8,7 @@ export default function Rooms() {
 
   const handleCarouselSlide = (direction) => {
     const totalSlides = roomItems.length;
+    console.log(roomItems);
     let nextSlide = currentSlide + direction;
 
     if (nextSlide < 0) {
