@@ -49,7 +49,7 @@ export default function Sliders() {
                 {item.description.length > 200 && (
                   <span
                     onClick={() => toggleReadMore(key)}
-                    style={{ color: 'blue', cursor: 'pointer' }}
+                    style={{ color: 'rgba(0, 0, 0, 0.5)', cursor: 'pointer' }}
                   >
                     {isExpanded[key] ? 'Read Less' : 'Read More'}
                   </span>
