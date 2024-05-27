@@ -79,10 +79,9 @@ setRoomIndex(index);
             <div className="carousel-inner">
               {roomItems.map((item, index) => (
                 <div className={`carousel-item ${index === 0 ? 'active' : ''}`} key={index}>
-                  <img src={item.images[currentSlide]} className="d-block w-100" alt={`Room ${index + 1}`} />
+                  <img src={roomItems[roomIndex].images[currentSlide]} className="d-block w-100" alt={`Room ${index + 1}`} />
                 </div>
               ))}
-
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" onClick={() => handleCarouselSlide(-1)}>
         <span className="carousel-control-prev-icon" aria-hidden="true"></span>

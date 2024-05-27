@@ -349,8 +349,18 @@ export const roomItems = [
   {
     images: [
       "../assets/img/room-2.jpeg",
-      "../assets/img/room-2.jpeg",
-      "../assets/img/room-3.jpeg"
+      "../assets/img/room2/room2-1.jpg",
+      "../assets/img/room2/room2-2.jpg",
+      "../assets/img/room2/room2-3.jpg",
+      "../assets/img/room2/room2-4.jpg",
+      "../assets/img/room2/room2-5.jpg",
+      "../assets/img/room2/room2-6.jpg",
+      "../assets/img/room2/room2-7.jpg",
+      "../assets/img/room2/room2-8.jpg",
+      "../assets/img/room2/room2-9.jpg",
+      "../assets/img/room2/room2-10.jpg",
+      "../assets/img/room2/room2-11.jpg",
+      "../assets/img/room2/room2-12.jpg",
     ],
     price: "₹2000/night",
     name: "Executive Suite",
@@ -369,8 +379,16 @@ export const roomItems = [
   {
     images: [
       "../assets/img/room-3.jpeg",
-      "../assets/img/room-2.jpeg",
-      "../assets/img/room-3.jpeg"
+      "../assets/img/room3/room3-1.jpg",
+      "../assets/img/room3/room3-2.jpg",
+      "../assets/img/room3/room3-3.jpg",
+      "../assets/img/room3/room3-4.jpg",
+      "../assets/img/room3/room3-5.jpg",
+      "../assets/img/room3/room3-6.jpg",
+      "../assets/img/room3/room3-7.jpg",
+      "../assets/img/room3/room3-8.jpg",
+      "../assets/img/room3/room3-9.jpg",
+      "../assets/img/room3/room3-10.jpg",
     ],
     price: "₹1500/night",
     name: "Super Deluxe",
