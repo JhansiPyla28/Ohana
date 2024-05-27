@@ -332,6 +332,7 @@ export const roomItems = [
       "../assets/img/room1/room1-6.jpg", 
       "../assets/img/room1/room1-7.jpg", 
     ],
+    img: "../assets/img/room1/room1-1.jpg",
     price: "₹2500/night",
     name: "Junior Suit",
     star: [
@@ -362,6 +363,7 @@ export const roomItems = [
       "../assets/img/room2/room2-11.jpg",
       "../assets/img/room2/room2-12.jpg",
     ],
+    img: "../assets/img/room-2.jpeg",
     price: "₹2000/night",
     name: "Executive Suite",
     star: [
@@ -390,6 +392,7 @@ export const roomItems = [
       "../assets/img/room3/room3-9.jpg",
       "../assets/img/room3/room3-10.jpg",
     ],
+    img: "../assets/img/room-3.jpeg",
     price: "₹1500/night",
     name: "Super Deluxe",
     star: [

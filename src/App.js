@@ -18,6 +18,7 @@ import {
   Testimonial,
 } from "./pages/index";
 import Footer from "./components/common/Footer";
+import Gallery from "./components/home/Gallery";
 export default function App() {
   return (
     <>
@@ -34,6 +35,7 @@ export default function App() {
             <Route path="/*" element={<PageNotFound />} />
             <Route path="/rooms" element={<Room />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/gallery" element={<Gallery />} />
           </Routes>
           <Footer />
         </Router>
