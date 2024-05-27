@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { testimonial } from "../data/Data";
 
 import Slider from "react-slick";
@@ -12,6 +12,21 @@ export default function Sliders() {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
+  };
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const toggleReadMore = () => {
+    setIsExpanded(!isExpanded);
+  };
+
+  const renderText = (text) => {
+    if (text.length <= 250) {
+      return text;
+    }
+    if (isExpanded) {
+      return text;
+    }
+    return text.substring(0, 250) + '...';
   };
   return (
     <>
@@ -27,7 +42,12 @@ export default function Sliders() {
                   key={key}
                   className="testimonial-item position-relative bg-white rounded overflow-hidden"
                 >
-                  <p>{item.description}</p>
+                  <p>{renderText(item.description)}</p>
+      {item.description.length > 250 && (
+        <span onClick={toggleReadMore} style={{ color: 'blue', cursor: 'pointer' }}>
+          {isExpanded ? 'Read Less' : 'Read More'}
+        </span>
+      )}
                   <div className="d-flex align-items-center">
                     <img
                       className="img-fluid flex-shrink-0 rounded"

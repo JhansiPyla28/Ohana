@@ -423,7 +423,27 @@ body {
     position: relative;
     z-index: 1;
 }
-
+.testimonial-item {
+    height: 300px; /* Adjust this value as needed */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .testimonial-item p {
+    height: 150px; /* Adjust this value to control the height of the text block */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6; /* Number of lines to show */
+    -webkit-box-orient: vertical;
+  }
+  .testimonial-item .read-more {
+    margin-top: auto; /* Ensure Read More link is at the bottom */
+    color: blue;
+    cursor: pointer;
+    text-align: center;
+  }
 .footer {
     position: relative;
     /* margin-top: -110px; */
