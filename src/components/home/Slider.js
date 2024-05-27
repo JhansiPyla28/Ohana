@@ -9,24 +9,27 @@ export default function Sliders() {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 1000, // Increase speed for a smoother transition
     slidesToShow: 2,
     slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000, // Slide every 2 seconds
+    cssEase: "linear" 
   };
-  const [isExpanded, setIsExpanded] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(testimonial.map(() => false));
 
-  const toggleReadMore = () => {
-    setIsExpanded(!isExpanded);
+  const toggleReadMore = (index) => {
+    setIsExpanded((prevState) => {
+      const newExpandedState = [...prevState];
+      newExpandedState[index] = !newExpandedState[index];
+      return newExpandedState;
+    });
   };
 
-  const renderText = (text) => {
-    if (text.length <= 250) {
-      return text;
-    }
-    if (isExpanded) {
-      return text;
-    }
-    return text.substring(0, 250) + '...';
+  const renderText = (text, isExpanded) => {
+    const limit = 200;
+    if (text.length <= limit || isExpanded) return text;
+    return text.substring(0, limit) + '...';
   };
   return (
     <>
@@ -42,12 +45,15 @@ export default function Sliders() {
                   key={key}
                   className="testimonial-item position-relative bg-white rounded overflow-hidden"
                 >
-                  <p>{renderText(item.description)}</p>
-      {item.description.length > 250 && (
-        <span onClick={toggleReadMore} style={{ color: 'blue', cursor: 'pointer' }}>
-          {isExpanded ? 'Read Less' : 'Read More'}
-        </span>
-      )}
+                  <p>{renderText(item.description, isExpanded[key])}</p>
+                {item.description.length > 200 && (
+                  <span
+                    onClick={() => toggleReadMore(key)}
+                    style={{ color: 'blue', cursor: 'pointer' }}
+                  >
+                    {isExpanded[key] ? 'Read Less' : 'Read More'}
+                  </span>
+                )}
                   <div className="d-flex align-items-center">
                     <img
                       className="img-fluid flex-shrink-0 rounded"
