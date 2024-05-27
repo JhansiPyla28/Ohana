@@ -9,9 +9,12 @@ export default function Sliders() {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 1000, // Increase speed for a smoother transition
     slidesToShow: 2,
     slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000, // Slide every 2 seconds
+    cssEase: "linear" 
   };
   const [isExpanded, setIsExpanded] = useState(testimonial.map(() => false));
 
