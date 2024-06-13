@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { carouselData } from "../data/Data";
+import '../../css/style.css'; // Ensure you import the CSS file
 
 export default function Carousel() {
   const sliderRef = useRef(null);
@@ -39,7 +40,7 @@ export default function Carousel() {
               {carouselData.map((val, index) => (
                 <div className="carousel-item" key={index}>
                   <img className="w-100" src={val.img} alt="Image" />
-                  <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                  <div className="carousel-caption d-flex flex-column align-items-center justify-content-center carousel-overlay">
                     <div className="p-3" style={{ maxWidth: "700px" }}>
                       <h6 className="section-title text-white text-uppercase mb-3 animated slideInDown">
                         {val.subtitle}

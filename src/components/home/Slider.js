@@ -4,6 +4,7 @@ import { testimonial } from "../data/Data";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import '../../css/style.css'
 
 export default function Sliders() {
   const settings = {

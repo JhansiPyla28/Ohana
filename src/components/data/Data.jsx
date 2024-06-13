@@ -63,7 +63,12 @@ export const socialIcons = [
   {
     icon: <i className="fab fa-youtube"></i>,
   },
+  {
+    icon: <i className="fas fa-phone"></i>,
+  },
 ];
+
+export const logoPath = "../assets/img/ohana white logo.png";
 
 export const carouselData = [
   {
