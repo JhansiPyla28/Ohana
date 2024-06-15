@@ -69,6 +69,7 @@ export const socialIcons = [
 ];
 
 export const logoPath = "../assets/img/ohana white logo.png";
+export const footerLogoPath = "../assets/img/footer_logo.png";
 
 export const carouselData = [
   {

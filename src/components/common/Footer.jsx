@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { footerContact, footerItem, socialIcons } from "../data/Data";
+import { footerContact, footerItem, socialIcons, footerLogoPath } from "../data/Data";
 import Newsletter from "../home/Newsletter";
 
 export default function Footer() {
@@ -7,15 +7,15 @@ export default function Footer() {
     <>
       {/* <Newsletter /> */}
       <div
-        className="container-fluid bg-dark text-light footer wow fadeIn"
+        className="container-fluid footerContainer text-light footer wow fadeIn"
         data-wow-delay="0.1s"
       >
         <div className="container pb-5">
           <div className="row g-5">
             <div className="col-md-6 col-lg-4">
-              <div className="bg-primary rounded p-4">
+              <div className="rounded p-4">
                 <Link to="/">
-                  <h1 className="text-white text-uppercase mb-3">Ohana</h1>
+                  <img src={footerLogoPath} alt="Ohana Logo" className="img-fluid mb-3" />
                 </Link>
                 <p className="text-white mb-0">
                   Experience a memorable stay at Ohana Living with modern amenities, nestled in the scenic foothills of the Himalayas.
@@ -47,10 +47,10 @@ export default function Footer() {
                       {section.header}
                     </h6>
                     {section.UnitItem.map((item, itemIndex) => (
-                    <a className="btn btn-link" href={item.href} key={itemIndex}>
-                      {item.name}
-                    </a>
-                  ))}
+                      <a className="btn btn-link" href={item.href} key={itemIndex}>
+                        {item.name}
+                      </a>
+                    ))}
                   </div>
                 ))}
               </div>
