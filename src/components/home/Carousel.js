@@ -1,12 +1,36 @@
-import React, { useRef } from "react";
+import React, { useState, useRef } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { carouselData } from "../data/Data";
 import '../../css/style.css'; // Ensure you import the CSS file
 
+const Popup = ({ onClose }) => {
+  const [fade, setFade] = useState(false);
+
+  const handleClose = () => {
+    setFade(true);
+    setTimeout(onClose, 300); // Match the duration of the fade-out animation
+  };
+
+  return (
+    <div className={`popup-overlay ${fade ? 'fade-out' : ''}`}>
+      <div className="popup-content">
+        <h2>Contact Information</h2>
+        <p><strong>Name:</strong> Ohana </p>
+        <p><strong>Email:</strong> ohana@example.com</p>
+        <p><strong>Phone:</strong> 9878786545 </p>
+        <button onClick={handleClose} className="btn btn-primary">
+          Close
+        </button>
+      </div>
+    </div>
+  );
+};
+
 export default function Carousel() {
   const sliderRef = useRef(null);
+  const [showPopup, setShowPopup] = useState(false);
 
   const next = () => {
     if (sliderRef.current) {
@@ -20,6 +44,15 @@ export default function Carousel() {
     }
   };
 
+  const openPopup = (e) => {
+    e.preventDefault();
+    setShowPopup(true);
+  };
+
+  const closePopup = () => {
+    setShowPopup(false);
+  };
+
   const settings = {
     dots: false,
     infinite: true,
@@ -27,14 +60,11 @@ export default function Carousel() {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
+
   return (
     <>
       <div className="container-fluid p-0 mb-5">
-        <div
-          id="header-carousel"
-          className="carousel slide"
-          data-bs-ride="carousel"
-        >
+        <div id="header-carousel" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-inner">
             <Slider ref={sliderRef} {...settings}>
               {carouselData.map((val, index) => (
@@ -55,7 +85,8 @@ export default function Carousel() {
                         {val.btn1}
                       </a>
                       <a
-                        href="/contact"
+                        href="#"
+                        onClick={openPopup}
                         className="btn btn-light py-md-3 px-md-5 animated slideInRight"
                       >
                         {val.btn2}
@@ -66,30 +97,17 @@ export default function Carousel() {
               ))}
             </Slider>
           </div>
-          <button
-            className="carousel-control-prev"
-            type="button"
-            onClick={previous}
-          >
-            <span
-              className="carousel-control-prev-icon"
-              aria-hidden="true"
-            ></span>
+          <button className="carousel-control-prev" type="button" onClick={previous}>
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
             <span className="visually-hidden">Previous</span>
           </button>
-          <button
-            className="carousel-control-next"
-            type="button"
-            onClick={next}
-          >
-            <span
-              className="carousel-control-next-icon"
-              aria-hidden="true"
-            ></span>
+          <button className="carousel-control-next" type="button" onClick={next}>
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
             <span className="visually-hidden">Next</span>
           </button>
         </div>
       </div>
+      {showPopup && <Popup onClose={closePopup} />}
     </>
   );
 }

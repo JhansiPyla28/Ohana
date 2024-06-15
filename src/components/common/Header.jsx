@@ -25,7 +25,7 @@ export default function Header() {
               to="/"
               className="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center"
             >
-              <img src={logoPath} alt="Ohana Logo" className="img-fluid" style={{ maxHeight: '50px' }} />
+              <img src={logoPath} alt="Ohana Logo" className="img-fluidd" style={{ maxHeight: '50px' }} />
               <span className="text-uppercase text-white logo-text">OHANA HOME STAY, DEHRADUN</span>
             </Link>
           </div>
