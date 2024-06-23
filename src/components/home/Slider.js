@@ -19,16 +19,8 @@ export default function Sliders() {
   };
   const [isExpanded, setIsExpanded] = useState(testimonial.map(() => false));
 
-  const toggleReadMore = (index) => {
-    setIsExpanded((prevState) => {
-      const newExpandedState = [...prevState];
-      newExpandedState[index] = !newExpandedState[index];
-      return newExpandedState;
-    });
-  };
-
   const renderText = (text, isExpanded) => {
-    const limit = 200;
+    const limit = 310;
     if (text.length <= limit || isExpanded) return text;
     return text.substring(0, limit) + '...';
   };
@@ -47,14 +39,6 @@ export default function Sliders() {
                   className="testimonial-item position-relative bg-white rounded overflow-hidden"
                 >
                   <p>{renderText(item.description, isExpanded[key])}</p>
-                {item.description.length > 200 && (
-                  <span
-                    onClick={() => toggleReadMore(key)}
-                    style={{ color: 'rgba(0, 0, 0, 0.5)', cursor: 'pointer' }}
-                  >
-                    {isExpanded[key] ? 'Read Less' : 'Read More'}
-                  </span>
-                )}
                   <div className="d-flex align-items-center">
                     <img
                       className="img-fluid flex-shrink-0 rounded"

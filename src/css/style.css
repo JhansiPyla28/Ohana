@@ -31,7 +31,7 @@ body {
     top: 0;
     width: 100%;
     z-index: 1020;
-    background-color: rgba(69, 93, 88, 0.5);
+    background-color: rgba(69, 93, 88, 1);
     /* Ensure it stays above other content */
     /* background-color: #455d58; */
 }

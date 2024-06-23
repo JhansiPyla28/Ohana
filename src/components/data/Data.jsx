@@ -241,8 +241,12 @@ export const footerContact = [
     name: "+91 90583 03579",
   },
   {
+    icon: <i className="fa fa-phone-alt me-3"></i>,
+    name: "+91 73585 46703",
+  },
+  {
     icon: <i className="fa fa-envelope me-3"></i>,
-    name: "ohanaliving@gmail.com",
+    name: "shilparalhi2@gmail.com",
   },
 ];
 
@@ -250,17 +254,17 @@ export const contact = [
   {
     icon: <i class="fa fa-envelope-open text-primary me-2"></i>,
     title: "Booking",
-    email: "ohanaBooking@example.com",
+    email: "shilparalhi2@gmail.com",
   },
   {
-    icon: <i class="fa fa-envelope-open text-primary me-2"></i>,
+    icon: <i className="fa fa-phone-alt text-primary me-3"></i>,
     title: "Technical",
-    email: "ohanaTechnical@example.com",
+    email: "+91 90583 03579",
   },
   {
-    icon: <i class="fa fa-envelope-open text-primary me-2"></i>,
+    icon: <i className="fa fa-phone-alt text-primary me-3"></i>,
     title: "General",
-    email: "ohanaliving@gmail.com",
+    email: "+91 73585 46703",
   },
 ];
 export const testimonial = [

@@ -5,7 +5,7 @@ import { about } from "../data/Data";
 export default function About() {
   return (
     <>
-      <div className="container-xxl py-5">
+      <div className="container-xxl py-4">
         <div className="container">
           <div className="row g-5 align-items-center">
             <div className="col-lg-6">
@@ -17,7 +17,7 @@ export default function About() {
                 <span className="text-primary text-uppercase">OHANA</span>
               </h1>
               <p className="mb-4">
-              A Luxury Homestay, The new-age way of Holiday, located amidst The Beautiful City of Dehradun. Adorned with a beautiful panoramic view of hills & bestowed with natural beauty in a pleasantly cool atmosphere with uncanny peace enthralled with nature, OHANA, serves as a wonderful alternate to the cookie clutter hotel rooms
+              Ohana Homestay is the right choice for visitors who are searching for a combination of charm, peace, quiet and a convenient position from where to explore surroundings.
               </p>
               <div className="row g-3 pb-4">
                 {about.map((item, key) => (
@@ -34,9 +34,6 @@ export default function About() {
                   </div>
                 ))}
               </div>
-              <a className="btn btn-primary py-3 px-5 mt-2" href="/rooms">
-                Explore More
-              </a>
             </div>
             <div className="col-lg-6">
               <div className="row g-3">
@@ -71,6 +68,66 @@ export default function About() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="container-xxl py-2">
+        <div className="container">
+          <div className="row g-5 align-items-center">
+            <div className="col-lg-6">
+              <div className="text-center">
+                <img
+                  className="img-fluid rounded wow zoomIn"
+                  data-wow-delay="0.1s"
+                  src="/assets/img/about-1.jpg"
+                  style={{ width: "80%" }}
+                />
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <h6 className="section-title text-start text-primary text-uppercase">
+                About Homestay
+              </h6>
+              <p className="mb-4">
+                Enjoy a private holiday in a cosy home surrounded by the calling mountains..where you must go!!! Perched on a plateau bestowed by nature..this quaint homestay will win you over its warm homely vibe.
+              </p>
+              <p className="mb-4">
+                Right from the cosy timbered façade to the breath-taking views of the Himalayan ranges from your room window, there is plenty to capture in your camera…Each room here has a personal veranda that opens up to mesmerizing views..Make your evenings special with barbeques by the bonfire in the lawns. Relish home-style food served or cook yourself a meal in the shared kitchen area. This blissful picturesque cocooned homestay is hand-picked just for you!!!!!!
+              </p>
+              {/* <a className="btn btn-primary py-3 px-5 mt-2" href="/rooms">
+                Explore More
+              </a> */}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container-xxl py-3">
+        <div className="container">
+          <div className="row g-5 align-items-center">
+            <div className="col-lg-6">
+              <h6 className="section-title text-start text-primary text-uppercase">
+                Ohana Homestay
+              </h6>
+              <p className="mb-4">
+                A name that spells Tranquality; A Luxury Homestay, The new-age way of Holiday, located amidst The Beautiful City of Dehradun. Adorned with a beautiful panoramic view of hills & bestowed with natural beauty in a pleasantly cool atmosphere with uncanny peace enthralled with nature, OHANA, serves as a wonderful alternate to the cookie clutter hotel rooms. The facility has four AC luxury rooms well equipped with high-end- modern amenities and can accommodate 8 guests. Guests can additionally access living and dinning room and kitchen. All rooms have attached toilet fitted with modern sanitary fittings including geyser & big looking mirror, TV, writing table with chair, king size bed, sides tool cupboard and high quality bedding. Spacious balcony is connected with all rooms.
+              </p>
+            </div>
+            <div className="col-lg-6">
+              <div className="text-center">
+                <img
+                  className="img-fluid rounded wow zoomIn"
+                  data-wow-delay="0.1s"
+                  src="/assets/img/about-1.jpg"
+                  style={{ width: "80%" }}
+                />
+              </div>
+            </div>
+          </div>
+          <div className="text-center py-4">
+            <a className="btn btn-primary py-3 px-5 mt-2" href="/rooms">
+              Explore More
+            </a>
           </div>
         </div>
       </div>
