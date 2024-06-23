@@ -27,7 +27,7 @@ export default function Sliders() {
   return (
     <>
       <div
-        className="container-xxl testimonial my-5 py-5 bg-dark wow zoomIn"
+        className="container-xxl testimonial my-5 py-5 wow zoomIn"
         data-wow-delay="0.1s"
       >
         <div className="container">
@@ -36,7 +36,7 @@ export default function Sliders() {
               {testimonial.map((item, key) => (
                 <div
                   key={key}
-                  className="testimonial-item position-relative bg-white rounded overflow-hidden"
+                  className="testimonial-item position-relative owl-carousel2 bg-white rounded overflow-hidden"
                 >
                   <p>{renderText(item.description, isExpanded[key])}</p>
                   <div className="d-flex align-items-center">
