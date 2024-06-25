@@ -26,14 +26,9 @@ body {
     z-index: 99;
 }
 
-.fixed-top {
-    position: fixed;
-    top: 0;
+.bgColor {
     width: 100%;
-    z-index: 1020;
     background-color: rgba(69, 93, 88, 1);
-    /* Ensure it stays above other content */
-    /* background-color: #455d58; */
 }
 
 .logo-text{

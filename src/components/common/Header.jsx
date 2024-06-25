@@ -18,7 +18,7 @@ export default function Header() {
 
   return (
     <>
-      <div className="container-fluid px-0 fixed-top">
+      <div className="container-fluid px-0 bgColor">
         <div className="row gx-0">
           <div className="col-lg-3 d-none d-lg-block">
             <Link
