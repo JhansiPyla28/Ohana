@@ -122,16 +122,43 @@ export const about = [
 
 export const services = [
   {
+    images: [
+      "../assets/img/room1/room1-1.jpg", 
+      "../assets/img/room1/room1-2.jpg", 
+      "../assets/img/room1/room1-3.jpg", 
+      "../assets/img/room1/room1-4.jpg",
+      "../assets/img/room1/room1-5.jpg", 
+      "../assets/img/room1/room1-6.jpg", 
+      "../assets/img/room1/room1-7.jpg", 
+    ],
     icon: <i class="fa fa-bed fa-2x text-primary"></i>,
     name: "Luxury AC Rooms",
     discription: "Four well-equipped rooms.",
   },
   {
+    images: [
+      "../assets/img/room1/room1-1.jpg", 
+      "../assets/img/room1/room1-2.jpg", 
+      "../assets/img/room1/room1-3.jpg", 
+      "../assets/img/room1/room1-4.jpg",
+      "../assets/img/room1/room1-5.jpg", 
+      "../assets/img/room1/room1-6.jpg", 
+      "../assets/img/room1/room1-7.jpg", 
+    ],
     icon: <i class="fa fa-home fa-2x text-primary"></i>,
     name: "Shared Spaces",
     discription: "Living, dining room, and kitchen.",
   },
   {
+    images: [
+      "../assets/img/room1/room1-1.jpg", 
+      "../assets/img/room1/room1-2.jpg", 
+      "../assets/img/room1/room1-3.jpg", 
+      "../assets/img/room1/room1-4.jpg",
+      "../assets/img/room1/room1-5.jpg", 
+      "../assets/img/room1/room1-6.jpg", 
+      "../assets/img/room1/room1-7.jpg", 
+    ],
     icon: <i class="fa fa-cog fa-2x text-primary"></i>,
     name: "Modern Amenities",
     discription: "High-end fittings and bedding.",
