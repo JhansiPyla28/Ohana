@@ -133,7 +133,7 @@ export const services = [
     ],
     icon: <i class="fa fa-bed fa-2x text-primary"></i>,
     name: "Luxury AC Rooms",
-    discription: "Four well-equipped rooms.",
+    discription: "Five well-equipped rooms",
   },
   {
     images: [
@@ -147,7 +147,7 @@ export const services = [
     ],
     icon: <i class="fa fa-home fa-2x text-primary"></i>,
     name: "Shared Spaces",
-    discription: "Living, dining room, and kitchen.",
+    discription: "Living, dining room and kitchen",
   },
   {
     images: [
@@ -161,18 +161,18 @@ export const services = [
     ],
     icon: <i class="fa fa-cog fa-2x text-primary"></i>,
     name: "Modern Amenities",
-    discription: "High-end fittings and bedding.",
+    discription: "High-end fittings, Cosy bedding and Quality linen",
   },
 
   {
     icon: <i class="fa fa-wifi fa-2x text-primary"></i>,
     name: "Convenient Facilities",
-    discription: "Free WiFi, driver’s stay, inverter.",
+    discription: "Free WiFi, Driver’s stay, Inverter, Washing machine, Microwave, RO, Fridge, Gas connection, Utensils etc",
   },
   {
     icon: <i class="fa fa-car fa-2x text-primary"></i>,
     name: "Ample Parking",
-    discription: "Spacious balcony and car parking.",
+    discription: "Spacious balcony and car parking",
   },
   // {
   //   icon: <i class="fa fa-dumbbell fa-2x text-primary"></i>,
@@ -265,15 +265,15 @@ export const footerContact = [
   },
   {
     icon: <i className="fa fa-phone-alt me-3"></i>,
-    name: "+91 90583 03579",
+    name: "+91 9058303579",
   },
   {
     icon: <i className="fa fa-phone-alt me-3"></i>,
-    name: "+91 73585 46703",
+    name: "+91 7358546703",
   },
   {
     icon: <i className="fa fa-envelope me-3"></i>,
-    name: "shilparalhi2@gmail.com",
+    name: "ohanalivingdoon@gmail.com",
   },
 ];
 
@@ -281,16 +281,16 @@ export const contact = [
   {
     icon: <i class="fa fa-envelope-open text-primary me-2"></i>,
     title: "Booking",
-    email: "shilparalhi2@gmail.com",
+    email: "ohanalivingdoon@gmail.com",
   },
   {
     icon: <i className="fa fa-phone-alt text-primary me-3"></i>,
-    title: "Technical",
+    // title: "Technical",
     email: "+91 90583 03579",
   },
   {
     icon: <i className="fa fa-phone-alt text-primary me-3"></i>,
-    title: "General",
+    // title: "General",
     email: "+91 73585 46703",
   },
 ];
@@ -370,8 +370,8 @@ export const roomItems = [
       "../assets/img/room1/room1-7.jpg", 
     ],
     img: "../assets/img/room1/room1-1.jpg",
-    price: "₹2500/night",
-    name: "Junior Suit",
+    // price: "₹2500/night",
+    name: "Deluxe",
     star: [
       <small class="fa fa-star text-primary"></small>,
       <small class="fa fa-star text-primary"></small>,
@@ -402,7 +402,7 @@ export const roomItems = [
     ],
     img: "../assets/img/room-2.jpeg",
     price: "₹2000/night",
-    name: "Executive Suite",
+    name: "Penthouse",
     star: [
       <small class="fa fa-star text-primary"></small>,
       <small class="fa fa-star text-primary"></small>,
@@ -451,11 +451,11 @@ export const facility = [
   {
     icon: <i class="fa fa-bed text-primary me-2"></i>,
     quantity: 3,
-    facility: "bed",
+    facility: "Rooms",
   },
   {
     icon: <i class="fa fa-bath text-primary me-2"></i>,
-    quantity: 2,
+    quantity: 1,
     facility: "bath",
   },
   {

@@ -17,9 +17,10 @@ const Popup = ({ onClose }) => {
     <div className={`popup-overlay ${fade ? 'fade-out' : ''}`}>
       <div className="popup-content">
         <h2>Contact Information</h2>
-        <p><strong>Name:</strong> Ohana </p>
-        <p><strong>Email:</strong> ohana@example.com</p>
-        <p><strong>Phone:</strong> 9878786545 </p>
+        <p><strong>Name:</strong> Shilpa Ralhi </p>
+        <p><strong>Email:</strong> ohanalivingdoon@gmail.com</p>
+        <p><strong>Phone:</strong> +91 9058303579 </p>
+        <p><strong>Phone:</strong> +91 7358546703 </p>
         <button onClick={handleClose} className="btn btn-primary">
           Close
         </button>
