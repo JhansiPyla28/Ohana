@@ -55,9 +55,9 @@ export default function Contact() {
               ></iframe>
             </div>
             <div className="col-md-6 wow fadeIn" data-wow-delay="0.1s">
-              <h6 className="text-start text-primary mb-3">
+              <h5 className="text-start text-primary mb-3">
               Urban Gold Rated Homestay by Uttarakhand Tourism Development Board
-              </h6>
+              </h5>
               <img 
                 src="../assets/img/certification.jpg" 
                 alt="Certification"

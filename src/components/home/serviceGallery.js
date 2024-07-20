@@ -79,7 +79,7 @@ export default function ServiceGallery() {
         </div>
         <a
           className="btn btn-sm btn-primary rounded py-2 px-4 mt-4 me-2"
-          href="/rooms"
+          href="/services"
         >
           Back to Services
         </a>
