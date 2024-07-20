@@ -6,6 +6,8 @@ import Rooms from "./Rooms";
 import HomeAbout from "./HomeAbout"
 import Sliders from "./Slider";
 import Teams from "./Team";
+import Gallery from "./Gallery";
+import ImportantPlaces from "./ImportantPlaces";
 
 export default function Home() {
   return (
@@ -14,6 +16,7 @@ export default function Home() {
       <HomeAbout />
       <Rooms />
       <Services />
+      <ImportantPlaces/>
       <Sliders />
       {/* <Teams /> */}
     </>

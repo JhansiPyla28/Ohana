@@ -172,6 +172,44 @@ export const services = [
   //   discription: "Contrary to popular belief, ipsum is not simply random.",
   // },
 ];
+export const importantPlaces = [
+  {
+    icon: "../assets/img/importantPlaces/airPort.jpeg",
+    name: "Jolly Grant Airport - 32 km",
+    discription: "Five well-equipped rooms",
+  },
+  {
+    icon: "../assets/img/importantPlaces/railway.jpeg",
+    name: "Railway Station - 11 km",
+    discription: "Living, dining room and kitchen",
+  },
+  {
+    icon: "../assets/img/importantPlaces/busStand.jpg",
+    name: "Main Bus Stand ISBT - 17 km",
+    discription: "High-end fittings, Cosy bedding and Quality linen",
+  },
+
+  {
+    icon: "../assets/img/importantPlaces/rishikesh.jpg",
+    name: "Rishikesh - 50 km",
+    discription: "Free WiFi, Driver’s stay, Inverter, Washing machine, Microwave, RO, Fridge, Gas connection, Utensils etc",
+  },
+  {
+    icon: "../assets/img/importantPlaces/mussorie.jpeg",
+    name: "Mussoorie - 28 km",
+    discription: "Spacious balcony and car parking",
+  },
+  {
+    icon: "../assets/img/importantPlaces/haridwar.jpeg",
+    name: "Haridwar - 59 km",
+    discription: "Free WiFi, Driver’s stay, Inverter, Washing machine, Microwave, RO, Fridge, Gas connection, Utensils etc",
+  },
+  {
+    icon: "../assets/img/importantPlaces/Paonta-Sahib-Gurudawara.jpg",
+    name: "Paonta Sahib HP - 60 km",
+    discription: "Spacious balcony and car parking",
+  },
+];
 export const team = [
   {
     image: "../assets/img/reviewer profile.png",
