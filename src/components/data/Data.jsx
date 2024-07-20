@@ -329,23 +329,16 @@ export const footerContact = [
   },
 ];
 
-export const contact = [
-  {
-    icon: <i class="fa fa-envelope-open text-primary me-2"></i>,
-    title: "Booking",
+export const contact = {
+  general: {
+    name: "Shilpa Ralhi",
+    address: "Ohana Homestay, Dehradun",
+    phone1: "+91 90583 03579",
+    phone2: "+91 73585 46703",
     email: "ohanalivingdoon@gmail.com",
-  },
-  {
-    icon: <i className="fa fa-phone-alt text-primary me-3"></i>,
-    // title: "Technical",
-    email: "+91 90583 03579",
-  },
-  {
-    icon: <i className="fa fa-phone-alt text-primary me-3"></i>,
-    // title: "General",
-    email: "+91 73585 46703",
-  },
-];
+  }
+};
+
 export const testimonial = [
   {
     description:

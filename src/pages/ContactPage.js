@@ -4,100 +4,66 @@ import CommonHeading from "../components/common/CommonHeading";
 import { contact } from "../components/data/Data";
 
 export default function Contact() {
+  const contactDetails = contact.general; // Accessing the general contact details
+
   return (
     <>
       <Heading heading="Contact" title="Home" subtitle="Contact" />
 
-      <div class="container-xxl py-5">
-        <div class="container">
+      <div className="container-xxl py-5">
+        <div className="container">
           <CommonHeading 
             heading="Contact Us"
-            subtitle="Contact For Any Query "
+            subtitle="Contact For Any Query"
             title=""
           />
-          <div class="row g-4">
-            <div class="col-12">
-              <div class="row gy-4">
-                {contact.map((item, index) => (
-                  <div class="col-md-4">
-                    <h6 class="section-title text-start text-primary text-uppercase">
-                      {item.title}
-                    </h6>
-                    <p>
-                      {item.icon}
-                      {item.email}
-                    </p>
-                  </div>
-                ))}
+          <div className="row g-4">
+            <div className="col-12">
+              <div className="row gy-4">
+                <div className="col-md-4">
+                  <h6 className="text-start text-primary text-uppercase">
+                    {contactDetails.name}
+                  </h6>
+                  <p>
+                    <i className="fa fa-map-marker-alt text-primary me-2"></i>
+                    {contactDetails.address}
+                  </p>
+                  <p>
+                    <i className="fa fa-phone-alt text-primary me-2"></i>
+                    Phone 1: {contactDetails.phone1}
+                  </p>
+                  <p>
+                    <i className="fa fa-phone-alt text-primary me-2"></i>
+                    Phone 2: {contactDetails.phone2}
+                  </p>
+                  <p>
+                    <i className="fa fa-envelope-open text-primary me-2"></i>
+                    Email: {contactDetails.email}
+                  </p>
+                </div>
               </div>
             </div>
-            <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div className="col-md-6 wow fadeIn" data-wow-delay="0.1s">
               <iframe
-                class="position-relative rounded w-100 h-100"
+                className="position-relative rounded w-100 h-100"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.188487720287!2d78.0862126754265!3d30.374005174759194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3908d7f440d0d793%3A0x2b8417710ac9b292!2sOHANA%20Homestay%20Dehradun!5e0!3m2!1sen!2sin!4v1716490213517!5m2!1sen!2sin"
-                frameborder="0"
+                frameBorder="0"
                 style={{ minHeight: "350px", border: "0" }}
-                allowfullscreen=""
+                allowFullScreen=""
                 aria-hidden="false"
-                tabindex="0"
+                tabIndex="0"
               ></iframe>
             </div>
-            <div class="col-md-6">
-              <div class="wow fadeInUp" data-wow-delay="0.2s">
-                <form>
-                  <div class="row g-3">
-                    <div class="col-md-6">
-                      <div class="form-floating">
-                        <input
-                          type="text"
-                          class="form-control"
-                          id="name"
-                          placeholder="Your Name"
-                        />
-                        <label for="name">Your Name</label>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="form-floating">
-                        <input
-                          type="email"
-                          class="form-control"
-                          id="email"
-                          placeholder="Your Email"
-                        />
-                        <label for="email">Your Email</label>
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <div class="form-floating">
-                        <input
-                          type="text"
-                          class="form-control"
-                          id="subject"
-                          placeholder="Subject"
-                        />
-                        <label for="subject">Subject</label>
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <div class="form-floating">
-                        <textarea
-                          class="form-control"
-                          placeholder="Leave a message here"
-                          id="message"
-                          style={{ height: "150px" }}
-                        ></textarea>
-                        <label for="message">Message</label>
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <button class="btn btn-primary w-100 py-3" type="submit">
-                        Send Message
-                      </button>
-                    </div>
-                  </div>
-                </form>
-              </div>
+            <div className="col-md-6 wow fadeIn" data-wow-delay="0.1s">
+              <h6 className="text-start text-primary mb-3">
+              Urban Gold Rated Homestay by Uttarakhand Tourism Development Board
+              </h6>
+              <img 
+                src="../assets/img/certification.jpg" 
+                alt="Certification"
+                className="img-fluid"
+                style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
+              />
             </div>
           </div>
         </div>

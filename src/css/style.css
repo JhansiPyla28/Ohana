@@ -476,6 +476,7 @@ body {
 
 .footerContainer{
     background-color: #455d58;
+    margin-top: -2%;
 }
 
 .newsletter {
@@ -894,5 +895,10 @@ body {
 
 .logoText2{
     margin-top: 6%;
-    margin-left: -57.5%;
+    margin-left: -45%;
+}
+
+.footerContent
+{
+    margin-left: 5%;
 }

@@ -8,11 +8,13 @@ import Sliders from "./Slider";
 import Teams from "./Team";
 import Gallery from "./Gallery";
 import ImportantPlaces from "./ImportantPlaces";
+import Footer from "../common/Footer";
 
 export default function Home() {
   return (
     <>
       <Carousel />
+      <Footer />
       <HomeAbout />
       <Rooms />
       <Services />
