@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-import { footerContact, footerItem, socialIcons, footerLogoPath } from "../data/Data";
+import { footerContact, footerAddress, socialIcons, footerLogoPath } from "../data/Data";
 import Newsletter from "../home/Newsletter";
+import '../../css/style.css';
 
 export default function Footer() {
   return (
@@ -22,8 +23,19 @@ export default function Footer() {
                 </p>
               </div>
             </div>
-            <div className="col-md-6 col-lg-3">
-              <h6 className="section-title text-start text-primary text-uppercase mb-4">
+            <div className="col-md-6 col-lg-3 footerContent">
+              <h6 className="section-title text-start text-primary text-uppercase">
+                ADDRESS
+              </h6>
+              {footerAddress.map((val, index) => (
+                <p className="mb-2" key={index}>
+                 {val.name}
+                </p>
+              ))}
+              
+            </div>
+            <div className="col-md-6 col-lg-3 footerContent">
+              <h6 className="section-title text-start text-primary text-uppercase">
                 Contact
               </h6>
               {footerContact.map((val, index) => (
@@ -39,22 +51,7 @@ export default function Footer() {
                 ))}
               </div>
             </div>
-            <div className="col-lg-5 col-md-12">
-              <div className="row gy-5 g-4">
-                {footerItem.map((section, sectionIndex) => (
-                  <div className="col-md-6" key={sectionIndex}>
-                    <h6 className="section-title text-start text-primary text-uppercase mb-4">
-                      {section.header}
-                    </h6>
-                    {section.UnitItem.map((item, itemIndex) => (
-                      <a className="btn btn-link" href={item.href} key={itemIndex}>
-                        {item.name}
-                      </a>
-                    ))}
-                  </div>
-                ))}
-              </div>
-            </div>
+           
           </div>
         </div>
       </div>

@@ -233,62 +233,84 @@ export const team = [
   },
 ];
 
-export const footerItem = [
-  {
-    id: 1,
-    header: "Company",
-    UnitItem: [
-      {
-        href: "/about",
-        name: "About Us",
-      },
-      {
-        href: "/contact",
-        name: "Contact Us",
-      },
-      {
-        href: "/contact",
-        name: "Privacy Policy",
-      },
-      {
-        href: "/contact",
-        name: "Terms & Condition",
-      },
-      {
-        href: "/contact",
-        name: "Support",
-      },
-    ],
-  },
-  {
-    id: 2,
-    header: "Services",
-    UnitItem: [
-      {
-        href: "/contact",
-        name: "Food & Restaurant",
-      },
-      {
-        href: "/contact",
-        name: "Spa & Fitness",
-      },
-      {
-        href: "/contact",
-        name: "Sports & Gaming",
-      },
-      {
-        href: "/contact",
-        name: "Event & Party",
-      },
-      {
-        href: "/contact",
-        name: "GYM & Yoga",
-      },
-    ],
-  },
-];
+// export const footerItem = [
+//   {
+//     id: 1,
+//     header: "Company",
+//     UnitItem: [
+//       {
+//         href: "/about",
+//         name: "About Us",
+//       },
+//       {
+//         href: "/contact",
+//         name: "Contact Us",
+//       },
+//       {
+//         href: "/contact",
+//         name: "Privacy Policy",
+//       },
+//       {
+//         href: "/contact",
+//         name: "Terms & Condition",
+//       },
+//       {
+//         href: "/contact",
+//         name: "Support",
+//       },
+//     ],
+//   },
+//   {
+//     id: 2,
+//     header: "Services",
+//     UnitItem: [
+//       {
+//         href: "/contact",
+//         name: "Food & Restaurant",
+//       },
+//       {
+//         href: "/contact",
+//         name: "Spa & Fitness",
+//       },
+//       {
+//         href: "/contact",
+//         name: "Sports & Gaming",
+//       },
+//       {
+//         href: "/contact",
+//         name: "Event & Party",
+//       },
+//       {
+//         href: "/contact",
+//         name: "GYM & Yoga",
+//       },
+//     ],
+//   },
+// ];
 
+export const footerAddress = [
+  {
+    title: "Plot and area",
+    name: "Plot no.426, Near Sheetla Mata Mandir"
+  },
+  {
+    title: "Road",
+    name: "Taralangal, Helipad Road"
+  },
+  {
+    title: "PINCODE",
+    name: "Dehradun- 248013"
+  },
+  {
+    title: "State",
+    name: "Uttarakhand"
+  }
+]
 export const footerContact = [
+  {
+    icon: <i className="fa fa-user me-3"></i>,
+    name: "Shilpa Ralhi", 
+  },
   {
     icon: <i className="fa fa-map-marker-alt me-3"></i>,
     name: "Ohana Homestay, Dehradun",

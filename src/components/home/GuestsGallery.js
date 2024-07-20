@@ -66,7 +66,7 @@ export default function GuestsGallery() {
     <div className="container-xxl py-5">
       <div className="container">
         <CommonHeading
-          heading="Our Room Gallery"
+          heading="Our Gallery"
           title={room.name}
           subtitle="Explore Our"
         />
