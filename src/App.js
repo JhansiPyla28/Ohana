@@ -19,6 +19,8 @@ import {
 } from "./pages/index";
 import Footer from "./components/common/Footer";
 import Gallery from "./components/home/Gallery";
+import ServiceGallery from "./components/home/serviceGallery";
+import GuestsGallery from "./components/home/GuestsGallery";
 export default function App() {
   return (
     <>
@@ -36,6 +38,9 @@ export default function App() {
             <Route path="/rooms" element={<Room />} />
             <Route path="/services" element={<Services />} />
             <Route path="/gallery" element={<Gallery />} />
+            <Route path="/serviceGallery" element={<ServiceGallery />} />
+            <Route path="/guestGallery" element={<GuestsGallery />} />
+
           </Routes>
           <Footer />
         </Router>

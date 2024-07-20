@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { navList, logoPath } from "../data/Data";
+import { navList, logoPath, Gallery_and_Guests } from "../data/Data";
 import SocialIcons from "./SocialIcons";
 import '../../css/style.css';
 
@@ -26,7 +26,9 @@ export default function Header() {
               className="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center"
             >
               <img src={logoPath} alt="Ohana Logo" className="img-fluidd" style={{ maxHeight: '50px' }} />
-              <span className="text-uppercase text-white logo-text" style={{ fontSize: '14px' }}>OHANA HOME STAY, DEHRADUN</span>
+              <span className="logoText1 text-uppercase text-white logo-text" style={{ fontSize: '14px' }}>OHANA HOME STAY, DEHRADUN</span>
+              <span className="logoText2 text-uppercase text-white logo-text" style={{ fontSize: '14px' }}>UTTARAKHAND</span>
+
             </Link>
           </div>
           <div className="col-lg-9">
@@ -74,6 +76,17 @@ export default function Header() {
                           {item.text}
                         </Link>
                       )}
+                    </div>
+                  ))}
+                  {/* Add buttons after the "Contact" nav item */}
+                  {Gallery_and_Guests.map((item, key) => (
+                    <div key={key}>
+                      <a
+                        className="nav-item nav-link"
+                        href={key === 2 ? "/contact" : `/guestGallery?roomId=${key}`}
+                      >
+                        {item.icon}
+                      </a>
                     </div>
                   ))}
                 </div>

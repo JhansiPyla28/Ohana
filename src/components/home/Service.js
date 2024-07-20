@@ -19,7 +19,7 @@ export default function Services() {
               <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s"  key={key}>
                 <a className="service-item rounded">
                   <div className="service-icon bg-transparent border rounded p-1">
-                    <a className="w-100 h-100 border rounded d-flex align-items-center justify-content-center"href={`/gallery?roomId=${key}`}>
+                    <a className="w-100 h-100 border rounded d-flex align-items-center justify-content-center"href={`/serviceGallery?roomId=${key}`}>
                       {item.icon}</a>
                     {/* </div> */}
                   </div>

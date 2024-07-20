@@ -11,14 +11,15 @@ export const navList = [
   },
   {
     id: 3,
-    path: "/services",
-    text: "Services",
-  },
-  {
-    id: 4,
     path: "/rooms",
     text: "Rooms",
   },
+  {
+    id: 4,
+    path: "/services",
+    text: "Services",
+  },
+
   // {
   //   id: 5,
   //   path: "/page",
@@ -41,11 +42,6 @@ export const navList = [
   //     },
   //   ],
   // },
-  {
-    id: 6,
-    path: "/contact",
-    text: "Contact",
-  },
 ];
 export const socialIcons = [
   {
@@ -140,10 +136,7 @@ export const services = [
       "../assets/img/room1/room1-1.jpg", 
       "../assets/img/room1/room1-2.jpg", 
       "../assets/img/room1/room1-3.jpg", 
-      "../assets/img/room1/room1-4.jpg",
-      "../assets/img/room1/room1-5.jpg", 
-      "../assets/img/room1/room1-6.jpg", 
-      "../assets/img/room1/room1-7.jpg", 
+
     ],
     icon: <i class="fa fa-home fa-2x text-primary"></i>,
     name: "Shared Spaces",
@@ -152,11 +145,6 @@ export const services = [
   {
     images: [
       "../assets/img/room1/room1-1.jpg", 
-      "../assets/img/room1/room1-2.jpg", 
-      "../assets/img/room1/room1-3.jpg", 
-      "../assets/img/room1/room1-4.jpg",
-      "../assets/img/room1/room1-5.jpg", 
-      "../assets/img/room1/room1-6.jpg", 
       "../assets/img/room1/room1-7.jpg", 
     ],
     icon: <i class="fa fa-cog fa-2x text-primary"></i>,
@@ -462,4 +450,33 @@ export const facility = [
     icon: <i class="fa fa-wifi text-primary me-2"></i>,
     facility: "Wifi",
   },
+];
+
+export const Gallery_and_Guests = [
+  {
+    images: [
+      "../assets/img/room1/room1-1.jpg", 
+      "../assets/img/room1/room1-2.jpg", 
+      "../assets/img/room1/room1-3.jpg", 
+      "../assets/img/room1/room1-4.jpg",
+      "../assets/img/room1/room1-5.jpg", 
+      "../assets/img/room1/room1-6.jpg", 
+      "../assets/img/room1/room1-7.jpg", 
+    ],
+    icon: "Guest",
+    name: "Guests"
+  },
+  {
+    images: [
+      "../assets/img/room1/room1-1.jpg", 
+      "../assets/img/room1/room1-2.jpg", 
+      "../assets/img/room1/room1-3.jpg",  
+    ],
+    icon: "Gallery",
+    name: "Gallery"
+  },
+  {
+    icon: "CONTACT",
+  }
+
 ];
