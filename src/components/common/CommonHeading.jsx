@@ -5,9 +5,9 @@ export default function CommonHeading({ heading, title, subtitle }) {
         <h6 className="section-title text-center text-primary text-uppercase">
           {heading}
         </h6>
-        <h1 className=" text-primary mb-5">
+        <h1 className="mb-5">
           {subtitle}{" "}
-          <span className="text-primary text-uppercase">{title}</span>
+          <span className=" text-uppercase">{title}</span>
         </h1>
       </div>
     </>
