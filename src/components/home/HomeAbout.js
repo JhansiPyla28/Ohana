@@ -14,10 +14,10 @@ export default function About() {
               </h6>
               <h1 className="mb-4">
                 Welcome to{" "}
-                <span className="text-primary text-uppercase">OHANA</span>
+                <span className=" text-uppercase">OHANA</span>
               </h1>
               <p className="mb-4">
-              A Luxury Homestay, The new-age way of Holiday, located amidst The Beautiful City of Dehradun. Adorned with a beautiful panoramic view of hills & bestowed with natural beauty in a pleasantly cool atmosphere with uncanny peace enthralled with nature, OHANA, serves as a wonderful alternate to the cookie clutter hotel rooms
+              Ohana Homestay is the right choice for guests who are looking for a peaceful and memorable stay on the foothills of the Himalayas. This sprawling bungalow has been tastefully constructed, decorated & maintained and gives a look of old British bungalow. With modern amenities in the lap of nature, Ohana Homestay is the perfect getaway in the beautiful valley of Dehradun.
               </p>
               <div className="row g-3 pb-4">
                 {about.map((item, key) => (

@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { carouselData } from "../data/Data";
 import '../../css/style.css'; // Ensure you import the CSS file
 
-const Popup = ({ onClose }) => {
+export const Popup = ({ onClose }) => {
   const [fade, setFade] = useState(false);
 
   const handleClose = () => {
@@ -19,8 +19,8 @@ const Popup = ({ onClose }) => {
         <h2>Contact Information</h2>
         <p><strong>Name:</strong> Shilpa Ralhi </p>
         <p><strong>Email:</strong> ohanalivingdoon@gmail.com</p>
-        <p><strong>Phone:</strong> +91 9058303579 </p>
-        <p><strong>Phone:</strong> +91 7358546703 </p>
+        <p> <i className="fas fa-phone"></i>  +91 9058303579 </p>
+        <p> <i className="fas fa-phone"></i>  +91 7358546703 </p>
         <button onClick={handleClose} className="btn btn-primary">
           Close
         </button>

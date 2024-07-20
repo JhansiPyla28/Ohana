@@ -14,7 +14,7 @@ export default function About() {
               </h6>
               <h1 className="mb-4">
                 Welcome to{" "}
-                <span className="text-primary text-uppercase">OHANA</span>
+                <span className=" text-uppercase">OHANA</span>
               </h1>
               <p className="mb-4">
               Ohana Homestay is the right choice for guests who are looking for a peaceful and memorable stay on the foothills of the Himalayas. This sprawling bungalow has been tastefully constructed, decorated & maintained and gives a look of old British bungalow. With modern amenities in the lap of nature, Ohana Homestay is the perfect getaway in the beautiful valley of Dehradun.
@@ -84,11 +84,11 @@ export default function About() {
                 />
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6"  style={{ textAlign: "justify" }}>
               <h6 className="section-title text-start text-primary text-uppercase">
                 About Homestay
               </h6>
-              <p className="mb-4">
+              <p className="mb-4" >
                 Enjoy a private holiday in a cosy home surrounded by the calling mountains..where you must go!!! Perched on a plateau bestowed by nature..this quaint homestay will win you over its warm homely vibe.
               </p>
               <p className="mb-4">
@@ -105,12 +105,15 @@ export default function About() {
       <div className="container-xxl py-3">
         <div className="container">
           <div className="row g-5 align-items-center">
-            <div className="col-lg-6">
+            <div className="col-lg-6"  style={{ textAlign: "justify" }}>
               <h6 className="section-title text-start text-primary text-uppercase">
                 Ohana Homestay
               </h6>
+              <p className="mb-4" >
+                A name that spells Tranquality; A Luxury Homestay, The new-age way of Holiday, located amidst The Beautiful City of Dehradun. Adorned with a beautiful panoramic view of hills & bestowed with natural beauty in a pleasantly cool atmosphere with uncanny peace enthralled with nature, OHANA, serves as a wonderful alternate to the cookie clutter hotel rooms. 
+              </p>
               <p className="mb-4">
-                A name that spells Tranquality; A Luxury Homestay, The new-age way of Holiday, located amidst The Beautiful City of Dehradun. Adorned with a beautiful panoramic view of hills & bestowed with natural beauty in a pleasantly cool atmosphere with uncanny peace enthralled with nature, OHANA, serves as a wonderful alternate to the cookie clutter hotel rooms. The facility has four AC luxury rooms well equipped with high-end- modern amenities and can accommodate 8 guests. Guests can additionally access living and dinning room and kitchen. All rooms have attached toilet fitted with modern sanitary fittings including geyser & big looking mirror, TV, writing table with chair, king size bed, sides tool cupboard and high quality bedding. Spacious balcony is connected with all rooms.
+              The facility has four AC luxury rooms well equipped with high-end- modern amenities and can accommodate 8 guests. Guests can additionally access living and dinning room and kitchen. All rooms have attached toilet fitted with modern sanitary fittings including geyser & big looking mirror, TV, writing table with chair, king size bed, sides tool cupboard and high quality bedding. Spacious balcony is connected with all rooms.
               </p>
             </div>
             <div className="col-lg-6">

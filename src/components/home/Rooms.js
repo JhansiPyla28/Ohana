@@ -3,7 +3,19 @@ import CommonHeading from "../common/CommonHeading";
 import { facility, roomItems } from "../data/Data";
 
 export default function Rooms() {
+const roomData=(room,facility)=>{
+  if(facility.facility==='Wifi'){
+    console.log(true,room.wifi)
+    return room.wifi;
+  }else if(facility.facility==='bath'){
 
+    return room.bath;
+  }
+  else{
+
+    return room.rooms;
+  }
+}
   return (
     <>
       <div className="container-xxl py-5">
@@ -19,9 +31,6 @@ export default function Rooms() {
                 <div className="room-item shadow rounded overflow-hidden">
                   <div className="position-relative">
                     <img className="img-fluid" src={item.img} alt="img" />
-                    <small className="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">
-                      {item.price}
-                    </small>
                   </div>
                   <div className="p-4 mt-2">
                     <div className="d-flex justify-content-between mb-3">
@@ -32,7 +41,7 @@ export default function Rooms() {
                       {facility.map((facilityItem, index) => (
                         <small className="border-end me-3 pe-3" key={index}>
                           {facilityItem.icon}
-                          {facilityItem.quantity} {facilityItem.facility}
+                          {roomData(item,facilityItem)} {facilityItem.facility}
                         </small>
                       ))}
                     </div>

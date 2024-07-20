@@ -46,21 +46,25 @@ export const navList = [
 export const socialIcons = [
   {
     icon: <i className="fab fa-facebook-f"></i>,
+    onclick:false
   },
   // {
   //   icon: <i className="fab fa-twitter"></i>,
   // },
   {
     icon: <i className="fab fa-instagram"></i>,
+    onclick:false
   },
   // {
   //   icon: <i className="fab fa-linkedin-in"></i>,
   // },
   {
     icon: <i className="fab fa-youtube"></i>,
+    onclick:false
   },
   {
     icon: <i className="fas fa-phone"></i>,
+    onclick:true
   },
 ];
 
@@ -77,21 +81,21 @@ export const carouselData = [
   },
   {
     img: "../assets/img/carousel-2.jpeg",
-    title: "Your peaceful escape!",
+    title: "Your Peaceful Escape!",
     subtitle: "luxury living",
     btn1: "Our Room",
     btn2: "Book Room",
   },
   {
     img: "../assets/img/carousel-3.jpeg",
-    title: "Feel the warmth of home",
+    title: "Feel the Warmth of Home",
     subtitle: "luxury living",
     btn1: "Our Room",
     btn2: "Book Room",
   },
   {
     img: "../assets/img/carousel-4.jpeg",
-    title: "Where every stay feels like family",
+    title: "Where every stay feels like Family",
     subtitle: "luxury living",
     btn1: "Our Room",
     btn2: "Book Room",
@@ -102,7 +106,7 @@ export const about = [
   {
     icon: <i class="fa fa-hotel fa-2x text-primary mb-2"></i>,
     text: "Rooms",
-    count: "12",
+    count: "5",
   },
   {
     icon: <i class="fa fa-users fa-2x text-primary mb-2"></i>,
@@ -112,7 +116,7 @@ export const about = [
   {
     icon: <i class="fa fa-users-cog fa-2x text-primary mb-2"></i>,
     text: "Staff",
-    count: "10+",
+    count: "3",
   },
 ];
 
@@ -358,7 +362,6 @@ export const roomItems = [
       "../assets/img/room1/room1-7.jpg", 
     ],
     img: "../assets/img/room1/room1-1.jpg",
-    // price: "₹2500/night",
     name: "Deluxe",
     star: [
       <small class="fa fa-star text-primary"></small>,
@@ -371,6 +374,40 @@ export const roomItems = [
       "A Luxury Homestay, The new-age way of Holiday, located amidst The Beautiful City of Dehradun. Adorned with a beautiful panoramic view of hills.",
     yellowbtn: "View Detail",
     darkbtn: "book now",
+    rooms:3,
+    wifi:1,
+    bath:1
+  },
+  {
+    images: [
+      "../assets/img/room-3.jpeg",
+      "../assets/img/room3/room3-1.jpg",
+      "../assets/img/room3/room3-2.jpg",
+      "../assets/img/room3/room3-3.jpg",
+      "../assets/img/room3/room3-4.jpg",
+      "../assets/img/room3/room3-5.jpg",
+      "../assets/img/room3/room3-6.jpg",
+      "../assets/img/room3/room3-7.jpg",
+      "../assets/img/room3/room3-8.jpg",
+      "../assets/img/room3/room3-9.jpg",
+      "../assets/img/room3/room3-10.jpg",
+    ],
+    img: "../assets/img/room-3.jpeg",
+    name: "Super Deluxe",
+    star: [
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+    ],
+    description:
+    "Enjoy a private holiday in a cosy home surrounded by the calling mountains. where you must go!!! Perched on a plateau bestowed by nature.",
+    yellowbtn: "View Detail",
+    darkbtn: "book now",
+    rooms:1,
+    wifi:1,
+    bath:1
   },
   {
     images: [
@@ -389,7 +426,6 @@ export const roomItems = [
       "../assets/img/room2/room2-12.jpg",
     ],
     img: "../assets/img/room-2.jpeg",
-    price: "₹2000/night",
     name: "Penthouse",
     star: [
       <small class="fa fa-star text-primary"></small>,
@@ -399,38 +435,12 @@ export const roomItems = [
       <small class="fa fa-star text-primary"></small>,
     ],
     description:
-      "Enjoy a private holiday in a cosy home surrounded by the calling mountains. where you must go!!! Perched on a plateau bestowed by nature.",
+    "A Luxury Homestay, The new-age way of Holiday, located amidst The Beautiful City of Dehradun. Adorned with a beautiful panoramic view of hills.",
     yellowbtn: "View Detail",
     darkbtn: "book now",
-  },
-  {
-    images: [
-      "../assets/img/room-3.jpeg",
-      "../assets/img/room3/room3-1.jpg",
-      "../assets/img/room3/room3-2.jpg",
-      "../assets/img/room3/room3-3.jpg",
-      "../assets/img/room3/room3-4.jpg",
-      "../assets/img/room3/room3-5.jpg",
-      "../assets/img/room3/room3-6.jpg",
-      "../assets/img/room3/room3-7.jpg",
-      "../assets/img/room3/room3-8.jpg",
-      "../assets/img/room3/room3-9.jpg",
-      "../assets/img/room3/room3-10.jpg",
-    ],
-    img: "../assets/img/room-3.jpeg",
-    price: "₹1500/night",
-    name: "Super Deluxe",
-    star: [
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-    ],
-    description:
-      "A Luxury Homestay, The new-age way of Holiday, located amidst The Beautiful City of Dehradun. Adorned with a beautiful panoramic view of hills.",
-    yellowbtn: "View Detail",
-    darkbtn: "book now",
+    rooms : 1,
+    wifi:1,
+    bath:1
   },
 ];
 
@@ -438,12 +448,10 @@ export const roomItems = [
 export const facility = [
   {
     icon: <i class="fa fa-bed text-primary me-2"></i>,
-    quantity: 3,
     facility: "Rooms",
   },
   {
     icon: <i class="fa fa-bath text-primary me-2"></i>,
-    quantity: 1,
     facility: "bath",
   },
   {
