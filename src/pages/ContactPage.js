@@ -14,7 +14,7 @@ export default function Contact() {
         <div className="container">
           <CommonHeading 
             heading="Contact Us"
-            subtitle="Contact For Any Query"
+            subtitle="Contact us for Bookings"
             title=""
           />
           <div className="row g-4">

@@ -262,8 +262,8 @@ export const services = [
       { type: "image", url: "../assets/img/parking/room-24.jpeg" },
     ],
     icon: <i class="fa fa-car fa-2x text-primary"></i>,
-    name: "Parking",
-    discription: "Spacious balcony and ample car parks",
+    name: "Open/Recreational Spaces",
+    discription: "",
   },
   // {
   //   icon: <i class="fa fa-dumbbell fa-2x text-primary"></i>,
@@ -432,8 +432,8 @@ export const contact = {
   general: {
     name: "Shilpa Ralhi",
     address: "Ohana Homestay, Dehradun",
-    phone1: "+91 90583 03579",
-    phone2: "+91 73585 46703",
+    phone1: "+91 9058303579",
+    phone2: "+91 7358546703",
     email: "ohanalivingdoon@gmail.com",
   }
 };
