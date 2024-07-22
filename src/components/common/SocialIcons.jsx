@@ -5,10 +5,16 @@ import {Popup} from "../home/Carousel";
 import '../../css/style.css';
 export default function SocialIcons() {
   const [showPopup, setShowPopup] = useState(false);
+  const [index, setIndex] = useState(0);
 
-  const openPopup = (e) => {
-    e.preventDefault();
-    setShowPopup(true);
+  const openPopup = (index) => {
+    if(socialIcons[index].name=="instagram"){
+      window.location.href = "https://www.instagram.com/ohana_homestay_dehradun?igsh=MnNmcTIxN3o0NzJl";
+    }
+    else{
+      setShowPopup(true);
+    }
+   
   };
 
   const closePopup = () => {
@@ -20,7 +26,8 @@ export default function SocialIcons() {
         <div className="d-inline-flex align-items-center py-2">
           {socialIcons.map((val, index) => (
             <div key={index}>
-              <a href="#" onClick={val.onclick ?  openPopup : undefined} className="me-3" >
+              <a href="#"   onClick={val.onclick ? () => openPopup(index) : undefined} 
+ className="me-3" >
                 {val.icon}
               </a>
               {showPopup && <Popup onClose={closePopup} />}

@@ -5,14 +5,11 @@ import { facility, roomItems } from "../data/Data";
 export default function Rooms() {
 const roomData=(room,facility)=>{
   if(facility.facility==='Wifi'){
-    console.log(true,room.wifi)
     return room.wifi;
   }else if(facility.facility==='bath'){
-
     return room.bath;
   }
   else{
-
     return room.rooms;
   }
 }
@@ -41,7 +38,7 @@ const roomData=(room,facility)=>{
                       {facility.map((facilityItem, index) => (
                         <small className="border-end me-3 pe-3" key={index}>
                           {facilityItem.icon}
-                          {roomData(item,facilityItem)} {facilityItem.facility}
+                          {roomData(item,facilityItem)} {facilityItem.facility==="Rooms"?roomData(item,facilityItem)===1?"Room":"Rooms":facilityItem.facility} 
                         </small>
                       ))}
                     </div>

@@ -46,6 +46,7 @@ export const navList = [
 export const socialIcons = [
   {
     icon: <i className="fab fa-facebook-f"></i>,
+    name:"facebook",
     onclick:false
   },
   // {
@@ -53,17 +54,20 @@ export const socialIcons = [
   // },
   {
     icon: <i className="fab fa-instagram"></i>,
-    onclick:false
+    name:"instagram",
+    onclick:true
   },
   // {
   //   icon: <i className="fab fa-linkedin-in"></i>,
   // },
   {
     icon: <i className="fab fa-youtube"></i>,
+    name:"youtube",
     onclick:false
   },
   {
     icon: <i className="fas fa-phone"></i>,
+    name:"phone",
     onclick:true
   },
 ];
