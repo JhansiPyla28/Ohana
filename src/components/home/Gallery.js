@@ -71,9 +71,16 @@ export default function Gallery() {
           subtitle="Explore Our"
         />
         <div className="gallery">
-          {room.images.map((image, index) => (
+          {room.images.map((media, index) => (
             <div className="gallery-item" key={index}>
-              <img src={image} alt={`Room ${room.name} image ${index + 1}`} />
+              {media.type === 'image' ? (
+                <img src={media.url} alt={`Room ${room.name} image ${index + 1}`} />
+              ) : (
+                <video controls>
+                  <source src={media.url} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              )}
             </div>
           ))}
         </div>
