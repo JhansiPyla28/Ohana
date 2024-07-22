@@ -38,7 +38,7 @@ export default function Sliders() {
                   key={key}
                   className="testimonial-item position-relative owl-carousel2 bg-white rounded overflow-hidden"
                 >
-                  <p>{renderText(item.description, isExpanded[key])}</p>
+                  <p style={{ textAlign: "justify" }}>{renderText(item.description, isExpanded[key])}</p>
                   <div className="d-flex align-items-center">
                     <img
                       className="img-fluid flex-shrink-0 rounded"
