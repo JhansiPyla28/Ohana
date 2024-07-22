@@ -258,8 +258,8 @@ export const services = [
       { type: "image", url: "../assets/img/parking/room-24.jpeg" },
     ],
     icon: <i class="fa fa-car fa-2x text-primary"></i>,
-    name: "Ample Parking",
-    discription: "Spacious balcony and car parking",
+    name: "Parking",
+    discription: "Spacious balcony and ample car parks",
   },
   // {
   //   icon: <i class="fa fa-dumbbell fa-2x text-primary"></i>,
@@ -519,12 +519,12 @@ export const roomItems = [
       <small class="fa fa-star text-primary"></small>,
     ],
     description:
-      "A Luxury Homestay, The new-age way of Holiday, located amidst The Beautiful City of Dehradun. Adorned with a beautiful panoramic view of hills.",
+      "A Luxury Homestay, The new-age way of Holiday, located amidst the beautiful City of Dehradun. Adorned with a beautiful panoramic view of hills.",
     yellowbtn: "View Detail",
     darkbtn: "book now",
     rooms:3,
     wifi:1,
-    bath:1
+    bath:3
   },
   {
     images: [
@@ -552,7 +552,7 @@ export const roomItems = [
       <small class="fa fa-star text-primary"></small>,
     ],
     description:
-    "Enjoy a private holiday in a cosy home surrounded by the calling mountains. where you must go!!! Perched on a plateau bestowed by nature.",
+    "Enjoy a private holiday in a cosy home surrounded by the calling mountains. where you must go!!! Perched in a valley bestowed by nature.",
     yellowbtn: "View Detail",
     darkbtn: "book now",
     rooms:1,
@@ -585,7 +585,7 @@ export const roomItems = [
       <small class="fa fa-star text-primary"></small>,
     ],
     description:
-    "A Luxury Homestay, The new-age way of Holiday, located amidst The Beautiful City of Dehradun. Adorned with a beautiful panoramic view of hills.",
+    "A Luxury Homestay, The new-age way of Holiday, located amidst the beautiful City of Dehradun. Adorned with a beautiful panoramic view of hills.",
     yellowbtn: "View Detail",
     darkbtn: "book now",
     rooms : 1,

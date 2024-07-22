@@ -54,7 +54,7 @@ export default function About() {
                 </div>
                 <div className="col-6 text-end">
                   <img
-                    className="img-fluid rounded w-50 wow zoomIn"
+                    className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.5s"
                     src="/assets/img/about-3.jpg"
                   />
@@ -89,7 +89,7 @@ export default function About() {
                 About Homestay
               </h6>
               <p className="mb-4" >
-                Enjoy a private holiday in a cosy home surrounded by the calling mountains..where you must go!!! Perched on a plateau bestowed by nature..this quaint homestay will win you over its warm homely vibe.
+                Enjoy a private holiday in a cosy home surrounded by the calling mountains..where you must go!!! Perched in a valley bestowed by nature..this quaint homestay will win you over its warm homely vibe.
               </p>
               <p className="mb-4">
                 Right from the cosy timbered façade to the breath-taking views of the Himalayan ranges from your room window, there is plenty to capture in your camera…Each room here has a personal veranda that opens up to mesmerizing views..Make your evenings special with barbeques by the bonfire in the lawns. Relish home-style food served or cook yourself a meal in the shared kitchen area. This blissful picturesque cocooned homestay is hand-picked just for you!!!!!!
