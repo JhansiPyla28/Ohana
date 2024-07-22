@@ -268,6 +268,18 @@ export const services = [
   {
     images:  [
       { type: "image", url: "../assets/img/parking/room-1.jpg" },
+      { type: "image", url: "../assets/img/parking/room-25.jpeg" },
+      { type: "image", url: "../assets/img/parking/room-26.jpg" },
+      { type: "image", url: "../assets/img/parking/room-27.jpg" },
+      { type: "image", url: "../assets/img/parking/room-28.jpg" },
+      { type: "image", url: "../assets/img/parking/room-29.jpg" },
+      { type: "image", url: "../assets/img/parking/room-30.jpg" },
+      { type: "image", url: "../assets/img/parking/room-31.jpg" },
+      { type: "image", url: "../assets/img/parking/room-32.jpg" },
+      { type: "image", url: "../assets/img/parking/room-33.jpg" },
+      { type: "image", url: "../assets/img/parking/room-34.jpg" },
+      { type: "image", url: "../assets/img/parking/room-35.jpg" },
+      { type: "image", url: "../assets/img/parking/room-36.jpg" },
     ],
     icon: <i class="fa fa-car fa-2x text-primary"></i>,
     name: "Parking",
@@ -508,6 +520,118 @@ export const testimonial = [
     ),
     img: "../assets/img/reviewer profile.png",
   },
+  {
+    description:
+      "I have stayed at Ohana for 5 days and it's been a wonderful experience. Room was neat and clean. Food was home made and was delicious. The terrace gives eye catching views of mountains. One of the best place to stay with great facilities and services with reasonable prices. I can say it's another home.",
+    name: "Jigar soni",
+    // profession: "Profession",
+    icon: (
+      <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+    ),
+    img: "../assets/img/reviewer profile.png",
+  },
+  {
+    description:
+      "It's a great place to stay.  The room itself, the view from the roof, and the terrace, the surrounding and of course the wonderful owner Shilpiji who is very sweet & her homemade food is very good, fresh and tasty. OHANA Justifies its name , wish we could stay longer!",
+    name: "Gayatri mohanty",
+    // profession: "Profession",
+    icon: (
+      <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+    ),
+    img: "../assets/img/reviewer profile.png",
+  },
+  {
+    description:
+      "The rooms are cozy, clean and well maintained. The hospitality of the owner is commendable, making guests feel at home. The food is delicious and out of the world. I suggest everyone to go to this place you will never regret. I highly recommend this place.",
+    name: "Sampada",
+    // profession: "Profession",
+    icon: (
+      <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+    ),
+    img: "../assets/img/reviewer profile.png",
+  },
+  
+  {
+    description:
+      "A beautiful homestay in Dehradun! We stayed only for 2 nights and enjoyed our time thoroughly. Shilpa ji is an amazing host, she cooked delicious home food for us and shared many interesting stories about nearby place, food and life. Highly recommended if you want enjoy Dehradun or nearby places 👍",
+    name: "Naveen sethia",
+    // profession: "Profession",
+    icon: (
+      <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+    ),
+    img: "../assets/img/reviewer profile.png",
+  },
+  {
+    description:
+      "Savoring every second of my stay at Ohana Fantastic house and wonderful host. Host is a psychologist ,we  had a terrific session with her.",
+    name: "Vaishali dubey",
+    // profession: "Profession",
+    icon: (
+      <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+    ),
+    img: "../assets/img/reviewer profile.png",
+  },
+  {
+    description:
+      "Very beautiful homestay away from the hustle bustle of the town. Spent two nights at the property and it was wonderful :)  The host Shilpa is super sweet and feed us great food throughout our stay.",
+    name: "kiran kallur",
+    // profession: "Profession",
+    icon: (
+      <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+    ),
+    img: "../assets/img/reviewer profile.png",
+  },
+  {
+    description:
+      "Such a real  homestay is not always available. Homemade food by Shilpa herself is very much enjoyable ! Whole property is aesthetically designed & decorated. All the requirements are ready in hand of guests. MUST MUST stay at Ohana homestay,  complete homestay!",
+    name: "Chaitali Banerjee",
+    // profession: "Profession",
+    icon: (
+      <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+    ),
+    img: "../assets/img/reviewer profile.png",
+  },
+  {
+    description:
+      "Me and my friend were travelling and wanted to have a stay like home. We loved the accommodations and the host was warm and welcoming. It was a relaxing stay at the property. 🎉🎉",
+    name: "Vivek sharma",
+    // profession: "Profession",
+    icon: (
+      <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+    ),
+    img: "../assets/img/reviewer profile.png",
+  },
+  {
+    description:
+      "Excellent property situated at the foothills of the Himalayas with excellent scenic view. Highly recommended for weekends/ short stay/ long stay. Very professionally managed. All modern amenities available. Luxury homestay at affordable rates. Great host.",
+    name: "Gurmit singh",
+    // profession: "Profession",
+    icon: (
+      <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+    ),
+    img: "../assets/img/reviewer profile.png",
+  },
+  {
+    description:
+      "The quality is consistently outstanding exceeding my expectations. Overall a perfect place for a peaceful stay with breath taking views..❤️",
+    name: "Sampada",
+    // profession: "Profession",
+    icon: (
+      <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+    ),
+    img: "../assets/img/reviewer profile.png",
+  },
+  {
+    description:
+      "Loved the simplicity of the location and the house is lovely. The rooms are really comfortable. Interior is very pretty. And the best part is the name 'OHANA'!",
+    name: "Anurag deshpnde",
+    // profession: "Profession",
+    icon: (
+      <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+    ),
+    img: "../assets/img/reviewer profile.png",
+  },
+
 ];
 
 export const roomItems = [
@@ -519,7 +643,16 @@ export const roomItems = [
       {type: "image", url:"../assets/img/room1/room1-4.jpg"},
       {type: "image", url:"../assets/img/room1/room1-5.jpg"},
       {type: "image", url:"../assets/img/room1/room1-6.jpg"},
-      {type: "video", url:"../assets/img/room1/room1-7.jpg"},
+      {type: "image", url:"../assets/img/room1/room1-7.jpg"},
+      {type: "image", url:"../assets/img/room1/room1-8.jpeg"} ,
+      {type: "image", url:"../assets/img/room1/room1-9.jpeg"}, 
+      {type: "image", url:"../assets/img/room1/room1-10.jpeg"},
+      {type: "image", url:"../assets/img/room1/room1-11.jpeg"},
+      {type: "image", url:"../assets/img/room1/room1-12.jpeg"},
+      {type: "image", url:"../assets/img/room1/room1-13.jpeg"},
+      {type: "image", url:"../assets/img/room1/room1-14.jpeg"},
+      {type: "image", url:"../assets/img/room1/room1-15.jpeg"},
+      {type: "image", url:"../assets/img/room1/room1-16.jpeg"},
     ],
     img: "../assets/img/room1/room1-1.jpg",
     name: "Deluxe",
@@ -627,6 +760,7 @@ export const Gallery_and_Guests = [
     images: [
       { type: "video", url: "../assets/img/guests/video-1.mp4" },
       { type: "video", url: "../assets/img/guests/video-2.mp4" },
+      { type: "video", url: "../assets/img/guests/video-3.mp4" },
       { type: "image", url: "../assets/img/guests/room-1.jpeg" },
       { type: "image", url: "../assets/img/guests/room-2.jpeg" },
       { type: "image", url: "../assets/img/guests/room-3.jpeg" },
@@ -640,6 +774,17 @@ export const Gallery_and_Guests = [
       { type: "image", url: "../assets/img/guests/room-13.jpeg" },
       { type: "image", url: "../assets/img/guests/room-14.jpeg" },
       { type: "image", url: "../assets/img/guests/room-15.jpeg" },
+      { type: "image", url: "../assets/img/guests/room-16.jpeg" },
+      { type: "image", url: "../assets/img/guests/room-24.jpeg" },
+      { type: "image", url: "../assets/img/guests/room-17.jpeg" },
+      { type: "image", url: "../assets/img/guests/room-18.jpeg" },
+      { type: "image", url: "../assets/img/guests/room-19.jpeg" },
+      { type: "image", url: "../assets/img/guests/room-21.jpeg" },
+      { type: "image", url: "../assets/img/guests/room-22.jpeg" },
+      { type: "image", url: "../assets/img/guests/room-23.jpeg" },
+      { type: "image", url: "../assets/img/guests/room-25.jpeg" },
+      { type: "image", url: "../assets/img/guests/room-20.jpeg" },
+
     ],
     icon: "Guests",
     name: "Guests"
@@ -672,12 +817,34 @@ export const Gallery_and_Guests = [
       { type: "image", url: "../assets/img/luxuryAcRooms/room-14.jpg" },
       { type: "image", url: "../assets/img/luxuryAcRooms/room-15.jpg" },
       { type: "image", url: "../assets/img/luxuryAcRooms/room-16.jpg" },
+      {type: "image", url:"../assets/img/room1/room1-7.jpg"},
+      {type: "image", url:"../assets/img/room1/room1-8.jpeg"} ,
+      {type: "image", url:"../assets/img/room1/room1-9.jpeg"}, 
+      {type: "image", url:"../assets/img/room1/room1-10.jpeg"},
+      {type: "image", url:"../assets/img/room1/room1-11.jpeg"},
+      {type: "image", url:"../assets/img/room1/room1-12.jpeg"},
+      {type: "image", url:"../assets/img/room1/room1-13.jpeg"},
+      {type: "image", url:"../assets/img/room1/room1-14.jpeg"},
+      {type: "image", url:"../assets/img/room1/room1-15.jpeg"},
+      {type: "image", url:"../assets/img/room1/room1-16.jpeg"},
       { type: "image", url: "../assets/img/luxuryAcRooms/room-17.jpg" },
       { type: "image", url: "../assets/img/luxuryAcRooms/room-18.jpg" },
       { type: "image", url: "../assets/img/luxuryAcRooms/room-19.jpeg" },
       { type: "image", url: "../assets/img/luxuryAcRooms/room-20.jpeg" },
       { type: "image", url: "../assets/img/luxuryAcRooms/room-21.jpeg" },
       { type: "image", url: "../assets/img/luxuryAcRooms/room-22.jpeg" },
+      { type: "image", url: "../assets/img/parking/room-25.jpeg" },
+      { type: "image", url: "../assets/img/parking/room-26.jpg" },
+      { type: "image", url: "../assets/img/parking/room-27.jpg" },
+      { type: "image", url: "../assets/img/parking/room-28.jpg" },
+      { type: "image", url: "../assets/img/parking/room-29.jpg" },
+      { type: "image", url: "../assets/img/parking/room-30.jpg" },
+      { type: "image", url: "../assets/img/parking/room-31.jpg" },
+      { type: "image", url: "../assets/img/parking/room-32.jpg" },
+      { type: "image", url: "../assets/img/parking/room-33.jpg" },
+      { type: "image", url: "../assets/img/parking/room-34.jpg" },
+      { type: "image", url: "../assets/img/parking/room-35.jpg" },
+      { type: "image", url: "../assets/img/parking/room-36.jpg" },
       { type: "image", url: "../assets/img/luxuryAcRooms/room-23.jpeg" },
       { type: "image", url: "../assets/img/luxuryAcRooms/room-24.jpeg" },
       { type: "image", url: "../assets/img/luxuryAcRooms/room-25.jpeg" },
@@ -689,6 +856,9 @@ export const Gallery_and_Guests = [
       { type: "image", url: "../assets/img/sharedSpaces/room-13.jpg" },
       { type: "image", url: "../assets/img/sharedSpaces/room-18.jpg" },
       { type: "image", url: "../assets/img/sharedSpaces/room-19.jpg" },
+      { type: "image", url: "../assets/img/guests/room-26.jpeg" },
+      { type: "image", url: "../assets/img/guests/room-27.jpeg" },
+      { type: "image", url: "../assets/img/guests/room-28.jpeg" },
       { type: "image", url: "../assets/img/sharedSpaces/room-20.jpg" },
       { type: "image", url: "../assets/img/sharedSpaces/room-21.jpg" },
       { type: "image", url: "../assets/img/sharedSpaces/room-22.jpg" },
@@ -751,6 +921,7 @@ export const Gallery_and_Guests = [
       { type: "image", url: "../assets/img/parking/room-22.jpeg" },
       { type: "image", url: "../assets/img/parking/room-23.jpeg" },
       { type: "image", url: "../assets/img/parking/room-24.jpeg" },
+
     ],
     icon: "Gallery",
     name: "Gallery"
