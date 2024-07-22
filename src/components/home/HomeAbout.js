@@ -16,7 +16,7 @@ export default function About() {
                 Welcome to{" "}
                 <span className=" text-uppercase">OHANA</span>
               </h1>
-              <p className="mb-4">
+              <p className="mb-4" style={{ textAlign: "justify" }}>
               Ohana Homestay is the right choice for guests who are looking for a peaceful and memorable stay on the foothills of the Himalayas. This sprawling bungalow has been tastefully constructed, decorated & maintained and gives a look of old British bungalow. With modern amenities in the lap of nature, Ohana Homestay is the perfect getaway in the beautiful valley of Dehradun.
               </p>
               <div className="row g-3 pb-4">

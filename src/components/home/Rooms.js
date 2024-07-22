@@ -42,7 +42,7 @@ const roomData=(room,facility)=>{
                         </small>
                       ))}
                     </div>
-                    <p className="text-body mb-3">{item.description}</p>
+                    <p className="text-body mb-3" style={{ textAlign: "justify" }}>{item.description}</p>
                     <div className="d-flex justify-content-between">
                       <a
                         className="btn btn-sm btn-primary rounded py-2 px-4"
