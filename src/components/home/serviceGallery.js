@@ -66,9 +66,9 @@ export default function ServiceGallery() {
     <div className="container-xxl py-5">
       <div className="container">
         <CommonHeading
-          heading="Our Gallery"
+          heading="our Gallery"
           title={room.name}
-          subtitle="Explore Our"
+          subtitle="Explore our"
         />
         <div className="gallery">
           {room.images.map((media, index) => (

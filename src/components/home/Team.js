@@ -10,7 +10,7 @@ export default function Teams() {
         <div className="container">
           <CommonHeading
             heading="Our Team"
-            subtitle="Explore Our"
+            subtitle="Explore our"
             title="Staffs"
           />
           <div className="row g-4">

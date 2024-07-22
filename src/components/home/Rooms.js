@@ -20,7 +20,7 @@ const roomData=(room,facility)=>{
           <CommonHeading
             heading="Our Rooms"
             title="Rooms"
-            subtitle="Explore Our"
+            subtitle="Explore our"
           />
           <div className="row g-4">
             {roomItems.map((item, key) => (
