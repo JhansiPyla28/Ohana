@@ -641,7 +641,7 @@ export const Gallery_and_Guests = [
       { type: "image", url: "../assets/img/guests/room-14.jpeg" },
       { type: "image", url: "../assets/img/guests/room-15.jpeg" },
     ],
-    icon: "Guest",
+    icon: "Guests",
     name: "Guests"
   },
   {

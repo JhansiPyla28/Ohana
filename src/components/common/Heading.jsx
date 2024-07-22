@@ -12,7 +12,7 @@ export default function Heading({ heading, title, subtitle }) {
               {heading}
             </h1>
             <nav aria-label="breadcrumb">
-              <ol className="breadcrumb justify-content-center text-uppercase">
+              <ol className="breadcrumb justify-content-center">
                 <li className="breadcrumb-item">
                   <Link to="/">{title}</Link>
                 </li>

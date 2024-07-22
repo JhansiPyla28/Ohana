@@ -11,7 +11,7 @@ export default function ImportantPlaces() {
             <CommonHeading
               heading="Important Places"
               title="Tourist Attractions"
-              subtitle="NEARBY"
+              subtitle="Nearby"
             />
           </div>
           <div className="row g-4">
