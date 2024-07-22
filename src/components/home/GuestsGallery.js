@@ -68,7 +68,7 @@ export default function GuestsGallery() {
         <CommonHeading
           heading="Our Gallery"
           title={room.name}
-          subtitle="Explore Our"
+          subtitle="Our"
         />
         <div className="gallery">
           {room.images.map((media, index) => (

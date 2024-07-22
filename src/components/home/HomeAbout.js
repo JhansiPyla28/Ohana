@@ -50,9 +50,10 @@ export default function About() {
                 </div>
                 <div className="col-6 text-start">
                   <img
-                    className="img-fluid rounded w-100 wow zoomIn"
+                    className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.3s"
                     src="/assets/img/about-2.jpg"
+                    style={{ marginTop: "25%" }}
                   />
                 </div>
                 <div className="col-6 text-end">
