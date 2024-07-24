@@ -1,9 +1,19 @@
 import { Link } from "react-router-dom";
 import { footerContact, footerAddress, socialIcons, footerLogoPath } from "../data/Data";
-import Newsletter from "../home/Newsletter";
 import '../../css/style.css';
 
 export default function Footer() {
+  
+  const handleSocialIconClick = (name, event) => {
+    event.preventDefault(); // Prevent default anchor behavior
+
+    if (name === "instagram") {
+      window.location.href = "https://www.instagram.com/ohana_homestay_dehradun?igsh=MnNmcTIxN3o0NzJl";
+    } else if (name === "facebook") {
+      window.location.href = "https://www.facebook.com/people/Ohana-Homestay-Dehradun/61563504231490/?mibextid=qi2Omg&rdid=Kn6HXpXxVUzEK7vX&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FMa8YWaMo7QjXkExc%2F%3Fmibextid%3Dqi2Omg"; // Replace with your Facebook URL
+    }
+  };
+
   return (
     <>
       {/* <Newsletter /> */}
@@ -29,10 +39,9 @@ export default function Footer() {
               </h6>
               {footerAddress.map((val, index) => (
                 <p className="mb-2" key={index}>
-                 {val.name}
+                  {val.name}
                 </p>
               ))}
-              
             </div>
             <div className="col-md-6 col-lg-3 footerContent">
               <h6 className="section-title text-start text-primary text-uppercase">
@@ -45,13 +54,17 @@ export default function Footer() {
               ))}
               <div className="d-flex pt-2">
                 {socialIcons.slice(0, 4).map((val, index) => (
-                  <a className="btn btn-outline-light btn-social" href="">
+                  <a 
+                    key={index} 
+                    href="#" 
+                    onClick={(event) => handleSocialIconClick(val.name, event)} 
+                    className="btn btn-outline-light btn-social"
+                  >
                     {val.icon}
                   </a>
                 ))}
               </div>
             </div>
-           
           </div>
         </div>
       </div>
