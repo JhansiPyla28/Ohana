@@ -41,7 +41,7 @@ export default function About() {
                   <img
                     className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.1s"
-                    src="/assets/img/about-1.jpg"
+                    src="/assets/img/about-2.jpg"
                     style={{ marginTop: "25%" }}
                   />
                 </div>
@@ -49,7 +49,7 @@ export default function About() {
                   <img
                     className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.3s"
-                    src="/assets/img/about-2.jpg"
+                    src="/assets/img/about-1.jpg"
                     style={{ marginTop: "25%" }}
                   />
                 </div>

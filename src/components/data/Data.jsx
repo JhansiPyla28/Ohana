@@ -313,11 +313,11 @@ export const importantPlaces = [
   },
   {
     icon: "../assets/img/importantPlaces/Paonta-Sahib-Gurudawara.jpg",
-    name: "Paonta Sahib HP - 60 km",
+    name: "Paonta Sahib, HP - 60 km",
   },
   {
     icon: "../assets/img/importantPlaces/Dhanaultii.jpg",
-    name: "Dhanaultii - 31 km",
+    name: "Dhanaulti - 31 km",
   },
   {
     icon: "../assets/img/importantPlaces/Chakrata.jpg",
