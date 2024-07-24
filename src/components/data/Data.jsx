@@ -502,8 +502,8 @@ export const testimonial = [
   },
   {
     description:
-      "An excellent and comfortable stay with an authentically serene ambiance, enveloped by nature's beauty and warm hospitality. OHANA, a genuine home away from home, is a definite destination for a relaxed and peaceful getaway experience, offering unparalleled tranquility and rejuvenation.",
-    name: "Manel Regina",
+      "Excellent stay!. The host is very very very nice n sweet. Food is superb. Breathtaking views. Looking forward to come again n again",
+    name: "Meena Kumari",
     // profession: "Profession",
     icon: (
       <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
