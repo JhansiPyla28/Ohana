@@ -645,12 +645,11 @@ export const roomItems = [
       {type: "image", url:"../assets/img/room1/room1-11.jpeg"},
       {type: "image", url:"../assets/img/room1/room1-12.jpeg"},
       {type: "image", url:"../assets/img/room1/room1-13.jpeg"},
-      {type: "image", url:"../assets/img/room1/room1-14.jpeg"},
       {type: "image", url:"../assets/img/room1/room1-15.jpeg"},
       {type: "image", url:"../assets/img/room1/room1-16.jpeg"},
     ],
     img: "../assets/img/room1/room1-1.jpg",
-    name: "Deluxe",
+    name: "Deluxe Rooms",
     star: [
       <small class="fa fa-star text-primary"></small>,
       <small class="fa fa-star text-primary"></small>,
@@ -683,7 +682,7 @@ export const roomItems = [
 
     ],
     img: "../assets/img/room-3.jpeg",
-    name: "Super Deluxe",
+    name: "Super Deluxe Room",
     star: [
       <small class="fa fa-star text-primary"></small>,
       <small class="fa fa-star text-primary"></small>,
@@ -711,7 +710,6 @@ export const roomItems = [
       { type: "image", url: "../assets/img/room2/room2-7.jpg" },
       { type: "image", url: "../assets/img/room2/room2-8.jpg" },
       { type: "image", url: "../assets/img/room2/room2-9.jpg" },
-      { type: "image", url: "../assets/img/room2/room2-10.jpg" },
       { type: "image", url: "../assets/img/room2/room2-11.jpg" },
       { type: "image", url: "../assets/img/room2/room2-12.jpg" },
     ],
@@ -779,6 +777,7 @@ export const Gallery_and_Guests = [
       { type: "image", url: "../assets/img/guests/room-23.jpeg" },
       { type: "image", url: "../assets/img/guests/room-25.jpeg" },
       { type: "image", url: "../assets/img/guests/room-20.jpeg" },
+      { type: "image", url: "../assets/img/guests/room-29.jpeg" },
 
     ],
     icon: "Guests",
