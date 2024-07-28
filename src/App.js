@@ -1,11 +1,11 @@
 import React from "react";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import "./css/style.css";
 import "./css/bootstrap.min.css";
 import "./css/animate.css";
 import "./css/animate.min.css";
 import "./App.css";
 import Header from "./components/common/Header";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import {
   Home,
   Booking,
@@ -21,7 +21,6 @@ import Footer from "./components/common/Footer";
 import Gallery from "./components/home/Gallery";
 import ServiceGallery from "./components/home/serviceGallery";
 import GuestsGallery from "./components/home/GuestsGallery";
-
 export default function App() {
   return (
     <>
@@ -29,7 +28,7 @@ export default function App() {
         <Router>
           <Header />
           <Routes>
-            <Route exact path="/" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/booking" element={<Booking />} />
             <Route path="/team" element={<Team />} />
             <Route path="/testimonial" element={<Testimonial />} />
@@ -41,6 +40,7 @@ export default function App() {
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/serviceGallery" element={<ServiceGallery />} />
             <Route path="/guestGallery" element={<GuestsGallery />} />
+
           </Routes>
           <Footer />
         </Router>
