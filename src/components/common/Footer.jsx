@@ -1,9 +1,13 @@
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { footerContact, footerAddress, socialIcons, footerLogoPath } from "../data/Data";
+import { Popup } from "../home/Carousel";
 import '../../css/style.css';
 
+
 export default function Footer() {
-  
+  const [showPopup, setShowPopup] = useState(false);
+
   const handleSocialIconClick = (name, event) => {
     event.preventDefault(); // Prevent default anchor behavior
 
@@ -12,8 +16,13 @@ export default function Footer() {
     } else if (name === "facebook") {
       window.location.href = "https://www.facebook.com/people/Ohana-Homestay-Dehradun/61563504231490/?mibextid=qi2Omg&rdid=Kn6HXpXxVUzEK7vX&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FMa8YWaMo7QjXkExc%2F%3Fmibextid%3Dqi2Omg"; // Replace with your Facebook URL
     }
+    else{
+      setShowPopup(true);
+    }
   };
-
+  const closePopup = () => {
+    setShowPopup(false);
+  };
   return (
     <>
       {/* <Newsletter /> */}
@@ -63,6 +72,7 @@ export default function Footer() {
                     {val.icon}
                   </a>
                 ))}
+                {showPopup && <Popup onClose={closePopup} />}
               </div>
             </div>
           </div>
