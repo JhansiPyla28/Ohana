@@ -296,7 +296,7 @@ export const importantPlaces = [
     name: "Railway Station - 11 km",
   },
   {
-    icon: "../assets/img/importantPlaces/busStand.jpg",
+    icon: "../assets/img/importantPlaces/busstand.jpg",
     name: "Main Bus Stand ISBT - 17 km",
   },
   {
