@@ -183,7 +183,7 @@ export const services = [
     ],
     icon: <i class="fa fa-home fa-2x text-primary"></i>,
     name: "Shared Spaces",
-    discription: "Living, dining room, kitchen, library, dining area, kitchen, fireplace, barbecue arrangement, balconies/ terraces, harden, frontyard, backyard etc.",
+    discription: "Living, dining room, kitchen, library, dining area, kitchen, fireplace, barbeque arrangement, balconies/ terraces, harden, frontyard, backyard etc.",
   },
   {
     images:  [
@@ -230,7 +230,7 @@ export const services = [
     ],
     icon: <i class="fa fa-wifi fa-2x text-primary"></i>,
     name: "Facilities",
-    discription: "The family provides to the guest an excellent room (including a special penthouse), attached balconies/ terrace, attached toilet, toiletry kit, barbecue arrangements and breakfast. The guests may avail of other meals - lunch, dinner, snack- at an extra cost.",
+    discription: "The family provides to the guest an excellent room (including a special penthouse), attached balconies/ terrace, attached toilet, toiletry kit, barbeque arrangements and breakfast. The guests may avail of other meals - lunch, dinner, snack- at an extra cost.",
   },
   {
     images:  [
@@ -258,7 +258,7 @@ export const services = [
     ],
     icon: <i class="fa fa-chair fa-2x text-primary"></i>    ,
     name: "Open/ Recreational Spaces",
-    discription: "",
+    discription: "Library, dining area, kitchen, fireplace, barbeque arrangement, balconies/ terraces, garden, frontyard, backyard etc.",
   },
   {
     images:  [
@@ -278,7 +278,7 @@ export const services = [
     ],
     icon: <i class="fa fa-car fa-2x text-primary"></i>,
     name: "Parking",
-    discription: "",
+    discription: "Outside and inside parking for guest vehicles.",
   },
   // {
   //   icon: <i class="fa fa-dumbbell fa-2x text-primary"></i>,
@@ -405,7 +405,7 @@ export const team = [
 export const footerAddress = [
   {
     title: "Plot and area",
-    name: "Plot No. 426, Near Sheetla Mata Mandir"
+    name: "Plot No. 426, Near Shitala Mata Mandir"
   },
   {
     title: "Road",
@@ -658,7 +658,7 @@ export const roomItems = [
       <small class="fa fa-star text-primary"></small>,
     ],
     description:
-      "A Luxury Homestay, The new-age way to Holiday, located in the beautiful City of Dehradun. It is adorned with a beautiful panoramic view of hills.",
+      "A Luxury Homestay, the new-age way to holiday, located in the beautiful city of Dehradun. It is adorned with a beautiful panoramic view of hills.",
     yellowbtn: "View Detail",
     darkbtn: "book now",
     rooms:3,
@@ -723,7 +723,7 @@ export const roomItems = [
       <small class="fa fa-star text-primary"></small>,
     ],
     description:
-    "A luxury homestay, This new-age location where you should holiday, located amidst the beautiful city of Dehradun Nothing beats this beautiful panoramic view of hills.",
+    "A luxury homestay, this new-age location where you should holiday, located amidst the beautiful city of Dehradun. Nothing beats this beautiful panoramic view of hills.",
     yellowbtn: "View Detail",
     darkbtn: "book now",
     rooms : 1,

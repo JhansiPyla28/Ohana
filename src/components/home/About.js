@@ -90,10 +90,10 @@ export default function About() {
                 About Homestay
               </h6>
               <p className="mb-4" >
-                Enjoy a private holiday in a cosy home surrounded by the calling mountains..where you must go!!! Perched in a valley bestowed by nature..this quaint homestay will win you over its warm homely vibe.
+                Enjoy a private holiday in a cosy home surrounded by the calling mountains. Perched in a valley bestowed by nature, this quaint homestay will win you over its warm homely vibe.
               </p>
               <p className="mb-4">
-                Right from the cosy timbered façade to the breath-taking views of the Himalayan ranges from your room window, there is plenty to capture in your camera…Each room here has a personal veranda that opens up to mesmerizing views..Make your evenings special with barbeques by the bonfire in the lawns. Relish home-style food served or cook yourself a meal in the shared kitchen area. This blissful picturesque cocooned homestay is hand-picked just for you!!!!!!
+                Right from the cosy timbered façade to the breath-taking views of the Himalayan ranges from your room window, there is plenty to capture in your camera. Each room here has a personal veranda that opens up to mesmerizing views. Make your evenings special with barbeques by the bonfire in the lawns. Relish home-style food served or cook yourself a meal in the shared kitchen area. This blissful picturesque cocooned homestay is hand-picked just for you!
               </p>
               {/* <a className="btn btn-primary py-3 px-5 mt-2" href="/rooms">
                 Explore More
@@ -111,10 +111,10 @@ export default function About() {
                 Ohana Homestay
               </h6>
               <p className="mb-4" >
-                A name that spells Tranquality; A Luxury Homestay, The new-age way of Holiday, located amidst the beautiful City of Dehradun. Adorned with a beautiful panoramic view of hills & bestowed with natural beauty in a pleasantly cool atmosphere with uncanny peace enthralled with nature, OHANA, serves as a wonderful alternate to the cookie clutter hotel rooms. 
+                A name that spells Tranquality; A Luxury Homestay, The new-age way to holiday, located amidst the beautiful city of Dehradun. Adorned with a beautiful panoramic view of hills & bestowed with natural beauty in a pleasantly cool atmosphere with uncanny peace enthralled with nature, OHANA, serves as a wonderful alternate to the cookie clutter hotel rooms. 
               </p>
               <p className="mb-4">
-              The facility has five AC luxury rooms well equipped with high-end- modern amenities and can accommodate 10 guests. Guests can additionally access living and dinning room and kitchen. All rooms have attached toilet fitted with modern sanitary fittings including geyser & big looking mirror, TV, writing table with chair, super king size beds, side stool and cupboard. Spacious balcony is connected with all rooms.
+              The facility has five AC luxury rooms well equipped with high-end - modern amenities and can accommodate 10 guests. Guests can additionally access living and dinning room and kitchen. All rooms have attached toilet fitted with modern sanitary fittings including geyser & big looking mirror, TV, writing table with chair, super king size beds, side stool and cupboard. Spacious balcony is connected with all rooms.
               </p>
             </div>
             <div className="col-lg-6">
