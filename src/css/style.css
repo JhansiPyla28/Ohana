@@ -903,3 +903,27 @@ body {
 {
     margin-left: 5%;
 }
+
+.heading-container {
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+  }
+  
+  .heading-container::before,
+  .heading-container::after {
+    content: "";
+    width: 50px;
+    border-top: 2px solid #FC9285;
+    margin: 0 10px; 
+  }
+  
+  .heading-container h1 {
+    margin: 0;
+    font-size: 2rem; 
+    color: black; 
+  }
+  

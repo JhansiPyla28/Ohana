@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import '../../css/style.css'
+import CommonHeading from "../common/CommonHeading";
 
 export default function Sliders() {
   const settings = {
@@ -26,11 +27,16 @@ export default function Sliders() {
   };
   return (
     <>
+    <div className="heading-container">
+  <h1>Guest Reviews</h1>
+</div>
+
       <div
         className="container-xxl testimonial my-5 py-5 wow zoomIn"
         data-wow-delay="0.1s"
       >
         <div className="container">
+      
           <div className="owl-carousel testimonial-carousel py-5">
             <Slider {...settings}>
               {testimonial.map((item, key) => (
