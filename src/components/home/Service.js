@@ -24,8 +24,8 @@ export default function Services() {
                     {/* </div> */}
                   </div>
                   <h5 className="mb-3">{item.name}</h5>
-                  <p className="text-body mb-0">{item.discription}</p>
-                </a>
+                  <p className="text-body mb-0" style={{ textAlign: 'justify', margin: '0 auto', width: 'fit-content' }}>{item.discription}</p>
+                  </a>
               </div>
             ))}
           </div>
