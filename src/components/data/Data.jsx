@@ -73,7 +73,7 @@ export const footerLogoPath = "../assets/img/footer_logo.png";
 export const carouselData = [
   {
     img: "../assets/img/carousel-1.jpeg",
-    title: "Ohana HomeStay",
+    title: "Ohana",
     subtitle: "luxury living",
     btn1: "Our Rooms",
     btn2: "Book Rooms",
@@ -183,7 +183,7 @@ export const services = [
     ],
     icon: <i class="fa fa-home fa-2x text-primary"></i>,
     name: "Shared Spaces",
-    discription: "Living, dining room and kitchen",
+    discription: "Living, dining",
   },
   {
     images:  [
@@ -202,7 +202,7 @@ export const services = [
     ],
     icon: <i class="fa fa-cog fa-2x text-primary"></i>,
     name: "Modern Amenities",
-    discription: "High-end fittings, Cosy bedding and Quality linen",
+    discription: "High-end fittings",
   },
   {
     images: [
@@ -230,7 +230,7 @@ export const services = [
     ],
     icon: <i class="fa fa-wifi fa-2x text-primary"></i>,
     name: "Facilities",
-    discription: "Free WiFi, Driver’s stay, Inverter, Washing machine, Microwave, RO, Fridge, Gas connection, Utensils etc",
+    discription: "",
   },
   {
     images:  [
@@ -257,7 +257,7 @@ export const services = [
       { type: "image", url: "../assets/img/parking/room-24.jpeg" },
     ],
     icon: <i class="fa fa-chair fa-2x text-primary"></i>    ,
-    name: "Open/Recreational Spaces",
+    name: "Spaces",
     discription: "",
   },
   {
@@ -405,7 +405,7 @@ export const team = [
 export const footerAddress = [
   {
     title: "Plot and area",
-    name: "Plot no.426, Near Sheetla Mata Mandir"
+    name: "Plot Near Sheetla Mata Mandir"
   },
   {
     title: "Road",
@@ -413,7 +413,7 @@ export const footerAddress = [
   },
   {
     title: "PINCODE",
-    name: "Dehradun- 248013"
+    name: "Dehradun - 248013"
   },
   {
     title: "State",
@@ -549,7 +549,7 @@ export const testimonial = [
   {
     description:
       "A beautiful homestay in Dehradun! We stayed only for 2 nights and enjoyed our time thoroughly. Shilpa ji is an amazing host, she cooked delicious home food for us and shared many interesting stories about nearby place, food and life. Highly recommended if you want enjoy Dehradun or nearby places 👍",
-    name: "Naveen sethia",
+    name: "Naveen",
     // profession: "Profession",
     icon: (
       <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
@@ -658,7 +658,7 @@ export const roomItems = [
       <small class="fa fa-star text-primary"></small>,
     ],
     description:
-      "A Luxury Homestay, The new-age way of Holiday, located amidst the beautiful City of Dehradun. Adorned with a beautiful panoramic view of hills.",
+      "A Luxury Homestay, The new-age way , located the beautiful City of Dehradun. with a beautiful panoramic view of hills.",
     yellowbtn: "View Detail",
     darkbtn: "book now",
     rooms:3,
@@ -691,7 +691,7 @@ export const roomItems = [
       <small class="fa fa-star text-primary"></small>,
     ],
     description:
-    "Enjoy a private holiday in a cosy home surrounded by the calling mountains. where you must go!!! Perched in a valley bestowed by nature.",
+    "Enjoy a private holiday in a cosy home surrounded by the calling mountains where you must go!!! Perched in a valley bestowed by nature.",
     yellowbtn: "View Detail",
     darkbtn: "book now",
     rooms:1,
@@ -723,7 +723,7 @@ export const roomItems = [
       <small class="fa fa-star text-primary"></small>,
     ],
     description:
-    "A Luxury Homestay, The new-age way of Holiday, located amidst the beautiful City of Dehradun. Adorned with a beautiful panoramic view of hills.",
+    "A new-age located amidst the beautiful of Dehradun. beautiful panoramic view of hills.",
     yellowbtn: "View Detail",
     darkbtn: "book now",
     rooms : 1,

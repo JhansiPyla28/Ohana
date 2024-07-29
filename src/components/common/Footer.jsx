@@ -38,7 +38,7 @@ export default function Footer() {
                   <img src={footerLogoPath} alt="Ohana Logo" className="img-fluid mb-3" />
                 </Link>
                 <p className="text-white mb-0">
-                  Experience a memorable stay at Ohana Living with modern amenities, nestled in the scenic foothills of the Himalayas.
+                  Experience a memorable stay at Ohana with modern amenities, nestled in the scenic foothills of the Himalayas.
                 </p>
               </div>
             </div>
