@@ -101,7 +101,7 @@ export default function GuestsGallery() {
         <div className={`popup-overlay ${showPopup ? '' : 'fade-out'}`}>
           <div className="popup-content">
             <h2>Contact Information</h2>
-            <p><strong>Name:</strong> Ohana </p>
+            <p><strong>Name:</strong> Shilpa Ralhi </p>
             <p><strong>Email:</strong> ohanalivingdoon@gmail.com</p>
             <p><strong>Phone:</strong> +91 9058303579 </p>
             <button onClick={closePopup} className="btn btn-primary">
