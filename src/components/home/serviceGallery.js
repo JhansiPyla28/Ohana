@@ -102,8 +102,8 @@ export default function ServiceGallery() {
           <div className="popup-content">
             <h2>Contact Information</h2>
             <p><strong>Name:</strong> Ohana </p>
-            <p><strong>Email:</strong> ohana@example.com</p>
-            <p><strong>Phone:</strong> 9878786545 </p>
+            <p><strong>Email:</strong> ohanalivingdoon@gmail.com</p>
+            <p><strong>Phone:</strong> +91 9058303579 </p>
             <button onClick={closePopup} className="btn btn-primary">
               Close
             </button>
